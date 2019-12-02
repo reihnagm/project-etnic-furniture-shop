@@ -1,0 +1,11 @@
+- jikalau tampilan tidak ada, dikarenakan ada float nya, untuk fixnya, hilangkan float nya
+- pengunaan pseudo :after untuk memberi jarak gunakan position:relative dan top,left,right,bottom
+- penggunaan outline pada img untuk tidak overflow pada effect hover
+- effect clearfix menghilangkan hover :after and :before
+- background: url() => width DAN height HARUS ADA
+- pada swiper harus !important
+- position: relative pada position:fixed tidak berperangaruh
+- pada tag body overflow hidden biar tidak scroll
+- position absolute maka harus height: 1000% agar tinggi dan lebar seperti fixed
+- pada position absolut, gunakan px karena absolute tidak seperti percent bisa berubah ubah
+- jika box-sizing border-box arah padding ke dalam

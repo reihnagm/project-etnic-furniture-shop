@@ -1,0 +1,242 @@
+// LOGO
+
+.container-logo
+    width: 150px
+
+.logo-img
+    float: left
+    line-height: 0
+    padding: 20px 0
+    max-width: 100%
+    max-height: 100%
+
+// BADGE
+
+.container-badge
+    position: relative
+    display: inline-block
+    float: right
+    padding: 45px 40px 0 0 
+    text-align: center
+
+.badge-bag-img
+    margin: 8px 4px 0 0
+    transition: 0.45s ease-in-out
+
+.badge-bag-img:hover
+    transform: translate3d(0, -67px, 0)
+
+.container-badge-bag-item
+    position: relative
+    overflow: hidden
+    height: 38px
+    line-height: 0
+    cursor: pointer
+
+.number-badge
+    color: #ffffff
+    background: #000000
+    position: absolute
+    top: 0
+    right: 0
+    padding: 0
+    width: 13px
+    height: 13px
+    line-height: 13px
+    text-indent: 4px
+    border-radius: 50%
+
+// NAV
+
+.menu
+    background: #ffffff
+    line-height: 150px
+
+.menu > ul
+    text-align: center
+
+.menu > ul > li
+    position: relative
+    display: inline-block
+
+.menu > ul > li:first-child > a
+    padding-left: 0
+
+.menu > ul > li > a
+    font-weight: bold
+    transition: 0.45s ease 0s
+    font-size: 13px
+    padding: 55px 25px
+    text-transform: uppercase
+    color: #000
+
+.menu > ul > li > a:hover
+    color: #fa6161
+
+// CLASS STICKY EFFECT SHRINK NAV
+
+.menu.sticky
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 2
+    width: 100%
+    height: 80px
+    line-height: 80px
+    box-shadow: 0 2px 12px 0 rgba(198, 198, 198, .76)
+    animation: smoothSlideUpSlideDown 1s
+
+.menu.sticky .logo-img
+    margin-left: 89.5px
+    width: 90px
+    padding: 14px 0
+    animation: smoothSlideUpSlideDown 1s
+
+.menu.sticky .container-badge
+    padding: 15px 50px 0 0
+    animation: smoothSlideUpSlideDown 1s
+
+// SUB MEGA MENU
+
+.furniture-mega-menu
+    background: #fff
+    position: absolute
+    top: 100%
+    left: 0
+    right: 0
+    height: auto
+    overflow: hidden
+    transition: transform 0.45s ease 0s
+    transform: scaleY(0)
+    transform-origin: top
+    z-index: 2
+    border-top: 0.5px solid #eee
+    letter-spacing: .9px
+    line-height: normal
+    width: 540px
+
+.furniture-mega-menu-ul
+    padding: 12px 15px
+
+.furniture-mega-menu-li:hover .furniture-mega-menu
+    transform: scaleY(1)
+
+.furniture-mega-menu-child-li
+    float: left
+    width: 33.33%
+
+.furniture-table-menu-li:hover .furniture-table-menu
+    transform: scaleY(1)
+
+.furniture-table-menu
+    background: #fff
+    position: absolute
+    top: 100%
+    right: 0
+    left: 0
+    height: auto
+    overflow: hidden
+    transition: transform 0.45s ease 0s
+    transform: scaleY(0)
+    transform-origin: top
+    border-top: 0.5px solid #eee
+    z-index: 2
+    letter-spacing: .9px
+    line-height: normal
+    width: 200px
+
+.furniture-chair-menu-li:hover .furniture-chair-menu
+    transform: scaleY(1)
+
+.furniture-chair-menu
+    background: #fff
+    position: absolute
+    top: 100%
+    right: 0
+    left: 0
+    height: auto
+    overflow: hidden
+    transition: transform 0.45s ease 0s
+    transform: scaleY(0)
+    transform-origin: top
+    z-index: 2
+    border-top: 0.5px solid #eee
+    letter-spacing: .9px
+    line-height: normal
+    width: 200px
+
+.furniture-desk-menu-li:hover .furniture-desk-menu
+    transform: scaleY(1)
+
+.furniture-desk-menu
+    background: #fff
+    position: absolute
+    top: 100%
+    right: 0
+    left: 0
+    height: auto
+    overflow: hidden
+    transition: transform 0.45s ease 0s
+    transform: scaleY(0)
+    transform-origin: top
+    z-index: 2
+    border-top: 0.5px solid #eeeeee
+    letter-spacing: .9px
+    line-height: normal
+    width: 200px
+
+.furniture-mega-chair-sub-menu-link,
+.furniture-mega-table-sub-menu-link,
+.furniture-mega-sofa-set-sub-menu-link
+    color: #000000
+    text-align: left
+    margin: 12px 0
+    display: block
+
+.furniture-table-menu-link,
+.furniture-chair-menu-link,
+.furniture-desk-menu-link
+    color: #000000
+    text-align: left
+    margin: 12px 0
+    display: block
+
+.furniture-table-menu-ul,
+.furniture-chair-menu-ul,
+.furniture-desk-menu-ul
+    padding: 15px 10px
+
+.furniture-mega-chair-sub-menu-link:hover,
+.furniture-mega-table-sub-menu-link:hover,
+.furniture-mega-sofa-set-sub-menu-link:hover
+    color: rgb(255, 31, 0)
+
+.furniture-table-menu-link:hover,
+.furniture-chair-menu-link:hover,
+.furniture-desk-menu-link:hover
+    color: rgb(255, 31, 0)
+
+.furniture-mega-table-sub-menu-li
+.furniture-mega-chair-sub-menu-li
+.furniture-mega-sofa-set-sub-menu-li
+    width: 100%
+    margin: 5px 0
+
+.furniture-mega-table-sub-menu-ul
+.furniture-mega-chair-sub-menu-ul
+.furniture-mega-sofa-set-sub-menu-ul
+    float: left
+
+.furniture-mega-chair-sub-menu-title,
+.furniture-mega-table-sub-menu-title,
+.furniture-mega-sofa-set-sub-menu-title
+    color: #000000
+    font-weight: bold
+    text-align: left
+    display: block
+
+@keyframes smoothSlideUpSlideDown
+    from
+        opacity: 0
+    to
+        opacity: 1

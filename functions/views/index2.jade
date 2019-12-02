@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+html
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/assets-dev/css/swiper/swiper.css")
+        link(rel="stylesheet", href="/assets-dev/css/swiper/swiper.min.css")
+        link(rel="stylesheet", href="/assets/css/main.min.css")
+        title Furniture Shop
+    body
+        .header.clearfix.hidden-in-mobile
+            .container
+                ul.container-language-and-currency
+                    li.language-and-currency-item
+                        .container-language
+                            span.display-language English 
+                            #[img(src="/assets/arrow-white/arrow-white.png", class="arrow-language")]
+                        ul.container-language-item
+                            li English
+                            li Espanol
+                            li Francais
+                            Ii Italiano 
+                            li Nederlands
+                            li Deutsch 
+                    li.language-and-currency-item
+                        .container-currency
+                            span.display-currency USD $ 
+                            #[img(src="/assets/arrow-white/arrow-white.png", class="arrow-currency")]
+                        ul.container-currency-item
+                            li EUR
+                            li USD
+                ul.container-create-account-and-sign-in-and-search
+                    li.create-account-and-sign-in-and-search-item
+                        a(href="javascript:void(0)", class="create-account") Create Account
+                    li.create-account-and-sign-in-and-search-item
+                        a(href="javascript:void(0)", class="sign-in") Sign in
+                    li.create-account-and-sign-in-and-search-item
+                        .container-box-search
+                            img(src="/assets/search/search.png", class="box-search-img")
+                        .container-input-search
+                            input(type="text", placeholder="Search our products", class="input-search")
+                            .container-input-search-img
+                                img(src="/assets/search/search.png", class="input-search-img")
+        .menu.hidden-in-mobile
+            ul
+                li.furniture-mega-menu-li
+                    a(href="javascript:void(0)") Furniture
+                    .furniture-mega-menu
+                        ul.furniture-mega-menu-ul
+                            li.furniture-mega-menu-child-li
+                                .furniture-mega-table-sub-menu
+                                    a(href="javascript:void(0)", class="furniture-mega-table-sub-menu-title") Table
+                                    ul.furniture-mega-table-sub-menu-ul
+                                        li.furniture-mega-table-sub-menu-li
+                                            a(href="javascript:void(0)", class="furniture-mega-table-sub-menu-link") Computer Table
+                                        li.furniture-mega-table-sub-menu-li
+                                            a(href="javascript:void(0)", class="furniture-mega-table-sub-menu-link") Dining Table
+                                        li.furniture-mega-table-sub-menu-li
+                                            a(href="javascript:void(0)", class="furniture-mega-table-sub-menu-link") Study Table                                        
+                            li.furniture-mega-menu-child-li
+                                ul.furniture-mega-chair-sub-menu
+                                    a(href="javascript:void(0)", class="furniture-mega-chair-sub-menu-title") Chair
+                                    ul.furniture-mega-chair-sub-menu-ul
+                                        li.furniture-mega-chair-sub-menu-li
+                                            a(href="javascript:void(0)", class="furniture-mega-chair-sub-menu-link") Baxter
+                                        li.furniture-mega-chair-sub-menu-li 
+                                            a(href="javascript:void(0)", class="furniture-mega-chair-sub-menu-link") Boone
+                                        li.furniture-mega-chair-sub-menu-li 
+                                            a(href="javascript:void(0)", class="furniture-mega-chair-sub-menu-link") Heney                
+                            li.furniture-mega-menu-child-li
+                                ul.furniture-mega-sofa-set-sub-menu
+                                    a(href="javascript:void(0)", class="furniture-mega-sofa-set-sub-menu-title") Sofa-Set
+                                    ul.furniture-mega-sofa-set-sub-menu-ul
+                                        li.furniture-mega-chair-sofa-set-sub-menu-li 
+                                            a(href="javascript:void(0)", class="furniture-mega-sofa-set-sub-menu-link") Fabric Sofa
+                                        li.furniture-mega-chair-sofa-set-sub-menu-li 
+                                            a(href="javascript:void(0)", class="furniture-mega-sofa-set-sub-menu-link") HuntBoard
+                                        li.furniture-mega-chair-sofa-set-sub-menu-li 
+                                            a(href="javascript:void(0)", class="furniture-mega-sofa-set-sub-menu-link") Beadboard
+                                            
+                                
+                 
+                li.furniture-table-menu-li
+                    a(href="javascript:void(0)") Table
+                    .furniture-table-menu
+                        ul.furniture-table-menu-ul
+                            li 
+                                a(href="havascript:void(0)", class="furniture-table-menu-link") Computer Table  
+                            li 
+                                a(href="havascript:void(0)", class="furniture-table-menu-link") Dining Table  
+                            li 
+                                a(href="havascript:void(0)", class="furniture-table-menu-link") Study Table  
+                li.furniture-chair-menu-li  
+                    a(href="javascript:void(0)") Chair
+                    .furniture-chair-menu
+                        ul.furniture-chair-menu-ul
+                            li
+                                a(href="javascript:void(0)", class="furniture-chair-menu-link") Chair        
+                li.furniture-desk-menu-li
+                    a(href="javascript:void(0)") Desks
+                    .furniture-desk-menu
+                        ul.furniture-desk-menu-ul
+                            li
+                                a(href="javascript:void(0)", class="furniture-desk-menu-link") Pero
+                li 
+                    a(href="javascript:void(0)") Dog Bed
+                .container-badge
+                    .container-badge-bag-item
+                        img(src="/assets/bag/bag.png", class="badge-bag-img")
+                        .number-badge 0
+        .header-mobile.hidden-in-desktop
+            .container-hamburger-menu-mobile
+                img(src="/assets/hamburger-menu/hamburger-menu-black.png", class="hamburger-menu-icon")
+            .container-person-mobile-icon
+                img(src="/assets/person/person.png", class="person-mobile-icon")
+            .container-bag-mobile-icon
+                img(src="/assets/bag/bag.png", class="bag-mobile-icon")
+        .container-search-bar-mobile.hidden-in-desktop
+            .container-input-search-mobile
+                input(type="text", class="input-search-mobile")
+                .container-input-search-img-mobile
+                    img(src="/assets/search/search.png", class="input-search-img-mobile")
+        .left-menu-mobile.hidden-in-desktop
+            ul.furniture-ul-mobile-menu
+                li.furniture-li-mobile-menu #[.furniture-btn Furniture]
+                    ul.furniture-sub-ul-mobile-menu
+                        .furniture-sub-li-mobile-menu-1 #[.furniture-table-btn Table]
+                            ul.table-ul
+                                li.table-li Computer Table
+                                li.table-li Dining Table
+                                li.table-li Study Table
+                        .furniture-sub-li-mobile-menu-2 #[.furniture-chair-btn Chair]
+                            ul.chair-ul
+                                li.chair-li Baxter
+                                li.chair-li Boone
+                                li.chair-li Heney
+                        .furniture-sub-li-mobile-menu-3 #[.furniture-sofa-set-btn Sofa Set] 
+                            ul.sofa-set-ul
+                                li.sofa-set-li Fabric Sofa
+                                li.sofa-set-li HuntBoard
+                                li.sofa-set-li beadboard
+                li.furniture-table-li-mobile-menu #[.table-btn Table] 
+                    ul.furniture-table-sub-ul-mobile-menu
+                        li.furniture-table-sub-li-mobile-menu Computer Table 
+                        li.furniture-table-sub-li-mobile-menu Dining Table 
+                        li.furniture-table-sub-li-mobile-menu Study Table
+                li.furniture-chair-li-mobile-menu #[.chair-btn Chair]  
+                    ul.furniture-chair-sub-ul-mobile-menu
+                        li.furniture-chair-sub-li-mobile-menu Tools 
+                li.furniture-desks-li-mobile-menu #[.desks-btn Desks]
+                    ul.furniture-desks-sub-ul-mobile-menu
+                        li.furniture-sub-li-mobile-menu Pero 
+                li.furniture-dog-bed-li-mobile-menu Dog Bed
+            select(style="display:block; padding: 5px; border: 1px solid #eeeeee; margin: 12px 0 0 6%")
+                option USD
+                option EUR
+            select(style="display:block; padding: 5px; border: 1px solid #eeeeee; margin: 12px 0 0 6%")
+                option ENGLISH
+                option ESPANOL
+                option FRANCAIS
+                option ITALIANO
+                option NEDERLANDS
+                option DEUTSCH
+        .swiper-container.home
+            .swiper-wrapper
+                .swiper-slide.home(style="background-image: url('https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/modules/df_mainslider/views/img/sample-2.jpg')")
+                    .caption-swiper-home
+                        h2.title-swiper-home Modern Furniture
+                        h2.desc-swiper-home New Sofa Comfort
+                        .hidden-in-mobile
+                            a(href="javascript:void(0)", class="swiper-button-link home") SHOP NOW
+                .swiper-slide.home(style="background-image: url('https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/modules/df_mainslider/views/img/sample-1.jpg')")
+                    .caption-swiper-home
+                        h2.title-swiper-home Bespoke Furniture
+                        h2.desc-swiper-home A Truly High-End
+                        .hidden-in-mobile
+                            a(href="javascript:void(0)", class="swiper-button-link home") SHOP NOW
+                .swiper-slide.home(style="background-image: url('https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/modules/df_mainslider/views/img/sample-3.jpg')")
+                    .caption-swiper-home
+                        h2.title-swiper-home Big Clearance Stock!
+                        h2.desc-swiper-home Incredible Bed Design
+                        .hidden-in-mobile
+                            a(href="javascript:void(0)", class="swiper-button-link home") SHOP NOW
+                            
+                .swiper-button-prev.home.hidden-in-mobile
+                    .home-swiper-arrow-left-container
+                        img(src="/assets/arrow-left/arrow-left.png", class="arrow-left-img")
+                .swiper-button-next.home.hidden-in-mobile
+                    .home-swiper-arrow-right-container
+                        img(src="/assets/arrow-right/arrow-right.png", class="arrow-right-img")
+                            
+            .swiper-pagination
+        section.section.section-services.clearfix
+            .container
+                ul.services-item-ul
+                    li.service-item-li.ship
+                        .container-ship-img
+                            img(src="/assets/ship/ship.png", alt="ship", class="ship-img")
+                        p.service-item-title.ship free shipping
+                        p since those times we were
+                    li.service-item-li.truck
+                        .container-truck-img
+                            img(src="/assets/truck/truck.png", alt="truck", class="truck-img")
+                        p.service-item-title.truck easy to return
+                        p since those times we were
+                    li.service-item-li.speaker
+                        .container-speaker-img
+                            img(src="/assets/speaker/speaker.png", alt="speaker", class="speaker-img")
+                        p.service-item-title.speaker free support
+                        p since those times we were
+                    li.service-item-li.hand
+                        .container-hand-img
+                            img(src="/assets/hand/hand.png", alt="hand", class="hand-img")
+                        p.service-item-title.hand easy payment
+                        p since those times we were 
+        section.section.section-content.clearfix
+            .container
+                ul
+                    li.sidebar.hidden-in-mobile.clearfix
+                        ul.categories-item-ul
+                            .container-category-title
+                                h3.category-title Categories
+                                img(src="/assets/hamburger-menu/hamburger-menu.png", class="category-hamburger-menu")
+                            li.category-item-li Furniture #[img(src="/assets/arrow/arrow.png", class="arrow-category")]
+                                ul.furniture-sidebar-sub-menu 
+                                    li.furniture-sidebar-sub-menu-li Table #[img(src="/assets/arrow/arrow.png", class="arrow-submenu-category")]
+                                        ul.furniture-sidebar-sub-menu-table
+                                            li.furniture-sidebar-sub-menu-li Computer Table
+                                            li.furniture-sidebar-sub-menu-li Dining Table
+                                            li.furniture-sidebar-sub-menu-li Study Table
+                            li.category-item-li Desks #[img(src="/assets/arrow/arrow.png", class="arrow-category")]
+                                ul.furniture-sidebar-sub-menu 
+                                    li.furniture-sidebar-sub-menu-li Pero
+                            li.category-item-li Chair #[img(src="/assets/arrow/arrow.png", class="arrow-category")]
+                                ul.furniture-sidebar-sub-menu 
+                                    li.furniture-sidebar-sub-menu-li Tools
+                            li.category-item-li Dog Bed
+                        ul.offer
+                            .container-offer-product-title
+                                h3.offer-product-title Offer Products
+                            .container-offer-product-img
+                                img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/2/0/4/204-cart_default.jpg", id="offer-products-img")
+                            p.offer-product-desc Suspendisse At Dolor
+                            .offer-product-item-price
+                                span.offer-discount $23.30
+                                span.offer-undiscount $19.12 
+                            ul.container-offer-countdown
+                                li.offer-countdown-item
+                                    p.number-days 120
+                                    .text-days DAYS
+                                li.offer-countdown-item
+                                    p.number-hours 1
+                                    .text-hours HOURS
+                                li.offer-countdown-item
+                                    p.number-minutes 
+                                    .text-minutes MIN
+                                li.offer-countdown-item
+                                    p.number-seconds
+                                    .text-seconds SEC
+                                a(href="javascript:(void)", class="offer-link-all-product") All Products
+                        ul.testimonial
+                            .container-testimonial-title 
+                                h3.testimonial-title Testimonial
+                            .swiper-container.testimonial
+                                .swiper-wrapper
+                                    .swiper-slide
+                                        .swiper-testimonial-img
+                                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/cms/testimonial-1.png", class="testimonial-img")
+                                            p.swiper-testimonial-author John Doe
+                                            p.swiper-testimonial-job Web Designer
+                                            p.swiper-testimonial-desc Lorem Ipsum Simply Dummt Text The Printing and TypeSetting Industry Ipsums Been The Industry's Standard Dummy Text Ever Since
+                                    .swiper-slide
+                                        .swiper-testimonial-img
+                                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/cms/testimonial-2.png", class="testimonial-img")
+                                            p.swiper-testimonial-author Robert 
+                                            p.swiper-testimonial-job Web Developer
+                                            p.swiper-testimonial-desc Lorem Ipsum Simply Dummt Text The Printing and TypeSetting Industry Ipsums Been The Industry's Standard Dummy Text Ever Since
+        
+                                    .swiper-slide
+                                        .swiper-testimonial-img
+                                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/cms/testimonial-3.png", class="testimonial-img")
+                                            p.swiper-testimonial-author Anna
+                                            p.swiper-testimonial-job Graphic Designer
+                                            p.swiper-testimonial-desc Lorem Ipsum Simply Dummt Text The Printing and TypeSetting Industry Ipsums Been The Industry's Standard Dummy Text Ever Since
+                                
+                                .swiper-pagination.testimonial
+                        ul.box-promotion
+                            li 
+                                h2.box-promotion-title B1 - G1
+                            li
+                                p.box-promotion-first-text-promo Buy 1 Get 1 Free
+                            li
+                                p.box-promotion-second-text-promo 5 days only on store
+                                a(href="javascript:void(0)", class="box-promotion-link") Shop now
+                        ul.ads-image
+                            li.ads-image-item   
+                                img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/modules/df_offerbanner/views/img/sale70.png")
+                    li.products.clearfix
+                        .products-tab.clearfix
+                            ul.products-tab-item-ul
+                                li.products-tab-item
+                                    a(href="javascript:void(0)", class="products-tab-link is-active-tab") Popular Products
+                                li.products-tab-item
+                                    a(href="javascript:void(0)", class="products-tab-link") Latest Products
+                                li.products-tab-item
+                                    a(href="javascript:void(0)", class="products-tab-link") Best Sellers
+                                    
+                        .products-border.clearfix
+                            ul.products-item-ul
+                                li.products-item-li.1
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="products-img 1")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/0/150-home_default.jpg", class="products-img-hovered 1")
+                                    .products-info-hovered.1
+                                        .products-info-add-to-cart.1.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link") Add to Cart
+                                        .products-info-eye-quick-view.1.hidden-in-mobile
+                                            p.products-info-eye-quick-view-text Quick View
+                                        .products-info-eye-style.1.hidden-in-mobile
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img 1")
+                                        .products-info-text.1
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale !
+                                        .products-info-rate.1
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                    .products-description.1
+                                        p.products-item-title Lorem Ipsum Dolor
+                                        p.products-price-and-shipping $23.90
+                                li.products-item-li.2
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/4/154-home_default.jpg", class="products-img 2")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/7/157-home_default.jpg", class="products-img-hovered 2")
+                                    .products-info-hovered.2
+                                        .products-info-add-to-cart.2.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link") Add to Cart
+                                        .products-info-eye-quick-view.2.hidden-in-mobile
+                                            p.products-info-eye-quick-view-text Quick View
+                                        .products-info-eye-style.2.hidden-in-mobile
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img 2")
+                                        .products-info-text.2
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale !
+                                        .products-info-rate.2
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                    .products-description.2
+                                        p.products-item-title Lorem Ipsum Dolor
+                                        p.products-price-and-shipping $23.90
+                                li.products-item-li.3
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/9/159-home_default.jpg", class="products-img 3")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/6/2/162-home_default.jpg", class="products-img-hovered 3")
+                                    .products-info-hovered.3
+                                        .products-info-add-to-cart.3.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link") Add to Cart
+                                        .products-info-eye-quick-view.3.hidden-in-mobile
+                                            p.products-info-eye-quick-view-text  Quick View
+                                        .products-info-eye-style.3.hidden-in-mobile
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img 3")
+                                        .products-info-text.3
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale !
+                                        .products-info-rate.3
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                    .products-description.3
+                                        p.products-item-title Lorem Ipsum Dolor
+                                        p.products-price-and-shipping $23.90
+                                li.products-item-li.4
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/6/4/164-home_default.jpg", class="products-img 4")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/6/8/168-home_default.jpg", class="products-img-hovered 4")
+                                    .products-info-hovered.4
+                                        .products-info-add-to-cart.4.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link") Add to Cart
+                                        .products-info-eye-quick-view.4.hidden-in-mobile
+                                            p.products-info-eye-quick-view-text  Quick View
+                                        .products-info-eye-style.4.hidden-in-mobile
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img 4")
+                                        .products-info-text.4
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale !
+                                        .products-info-rate.4
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-img")
+                                    .products-description.4
+                                        p.products-item-title Lorem Ipsum Dolor
+                                        p.products-price-and-shipping $23.90
+                        .discount-banner
+                                .discount-banner-onsale-shape.hidden-in-mobile
+                                    p.discount-banner-onsale-shape-description ON SALE
+                                .container-discount-banner-img
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/cms/banner.jpg", class="banner-img")
+                                    .discount-banner-description
+                                        .discount-banner-title
+                                            a(href="javascript:void(0)", class="banner-title-link") Flate   
+                                                span.banner-price  30% Off 
+                                                #[ Trending Season ]
+                                        .discount-banner-desc
+                                            p.banner-detail your order boxed 30 minutes to deliver
+                                        .discount-banner-button.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="discount-banner-link")  Buy now
+                        .products-onsale.clearfix
+                            h4.products-onsale-title OTHER PRODUCTS
+                            ul.products-item-ul-onsale
+                                li.products-item-li-onsale.1
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="products-img-onsale 1")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/0/150-home_default.jpg", class="products-img-hovered-onsale 1")
+                                    .products-info-hovered-onsale.1
+                                        .products-info-add-to-cart-onsale.1.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link-onsale") Add to Cart 
+                                        .products-info-eye-quick-view-onsale.1.hidden-in-mobile
+                                            p.products-info-eye-quick-view-onsale-text Quick View
+                                        .products-info-eye-style-onsale.1.hidden-in-mobile 
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img-onsale 1")
+                                        .products-info-text-onsale.1
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale!
+                                        .products-info-rate-onsale.1
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")        
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")    
+                                    .products-description-onsale.1
+                                        p.products-item-title-onsale Lorem Ipsum Dolor
+                                        p.products-price-and-shipping-onsale $23.90
+                                li.products-item-li-onsale.2
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="products-img-onsale 2")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/0/150-home_default.jpg", class="products-img-hovered-onsale 2")
+                                    .products-info-hovered-onsale.2
+                                        .products-info-add-to-cart-onsale.2.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link-onsale") Add to Cart 
+                                        .products-info-eye-quick-view-onsale.2.hidden-in-mobile
+                                            p.products-info-eye-quick-view-onsale-text Quick View
+                                        .products-info-eye-style-onsale.2.hidden-in-mobile 
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img-onsale 2")
+                                        .products-info-text-onsale.2
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale!
+                                        .products-info-rate-onsale.2
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")        
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")    
+                                    .products-description-onsale.2
+                                        p.products-item-title-onsale Lorem Ipsum Dolor
+                                        p.products-price-and-shipping-onsale $23.90
+                                li.products-item-li-onsale.3
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="products-img-onsale 3")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/0/150-home_default.jpg", class="products-img-hovered-onsale 3")
+                                    .products-info-hovered-onsale.3
+                                        .products-info-add-to-cart-onsale.3.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link-onsale") Add to Cart 
+                                        .products-info-eye-quick-view-onsale.3.hidden-in-mobile
+                                            p.products-info-eye-quick-view-onsale-text Quick View
+                                        .products-info-eye-style-onsale.3.hidden-in-mobile 
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img-onsale 3")
+                                        .products-info-text-onsale.3
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale!
+                                        .products-info-rate-onsale.3
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")        
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")    
+                                    .products-description-onsale.3
+                                        p.products-item-title-onsale Lorem Ipsum Dolor
+                                        p.products-price-and-shipping-onsale $23.90
+                                li.products-item-li-onsale.4
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="products-img-onsale 4")
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/0/150-home_default.jpg", class="products-img-hovered-onsale 4")
+                                    .products-info-hovered-onsale.4
+                                        .products-info-add-to-cart-onsale.4.hidden-in-mobile
+                                            a(href="javascript:void(0)", class="products-info-add-to-cart-link-onsale") Add to Cart 
+                                        .products-info-eye-quick-view-onsale.4.hidden-in-mobile
+                                            p.products-info-eye-quick-view-onsale-text Quick View
+                                        .products-info-eye-style-onsale.4.hidden-in-mobile 
+                                            img(src="/assets/eye/eye.png", class="products-info-eye-style-img-onsale 4")
+                                        .products-info-text-onsale.4
+                                            span.products-info-text-new New
+                                            p.products-info-text-new-onsale On Sale!
+                                        .products-info-rate-onsale.4
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")        
+                                            img(src="/assets/star/star-fill.png", class="products-info-rate-onsale-img")    
+                                    .products-description-onsale.4
+                                        p.products-item-title-onsale Lorem Ipsum Dolor
+                                        p.products-price-and-shipping-onsale $23.90
+                        .products-other-onsale.clearfix
+                            ul.products-item-other-onsale
+                                li.sub-banner
+                                    ul.sub-banner-content
+                                        li.sub-banner-content-li
+                                            .banner-inner
+                                                a(href="javascript:void(0)", class="banner-inner-link") #[img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/cms/sub-banner-1.jpg", class="banner-inner-img")]
+                                                .products-item-other-onsale-detail
+                                                    p.products-item-other-onsale-detail-title Fully Satisfied
+                                                    p.products-item-other-onsale-detail-description SALE 50% ALL SOFA
+                                        li.sub-banner-content-li
+                                            .banner-inner
+                                                a(href="javascript:void(0)", class="banner-inner-link") #[img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/cms/sub-banner-2.jpg", class="banner-inner-img")]
+                                                .products-item-other-onsale-detail
+                                                    p.products-item-other-onsale-detail-title Capri Wooden chair
+                                                    p.products-item-other-onsale-detail-description WEDDING FLOWERS
+                        .swiper-container.blog-latest.clearfix
+                            h2.blog-latest-title Latest Post
+                            .swiper-blog-arrow
+                                .swiper-blog-arrow-left
+                                    img(src="/assets/arrow-left/arrow-left.png", class="swiper-blog-arrow-left-img")
+                                .swiper-blog-arrow-right
+                                    img(src="/assets/arrow-right/arrow-right.png", class="swiper-blog-arrow-right-img")
+                            .swiper-wrapper.blog-latest
+                                .swiper-slide.blog-latest
+                                    .blog-latest-container
+                                        .blog-latest-img-container
+                                            img(src="/assets/images/art-chairs-color.jpg", class="blog-latest-img")
+                                            span.blog-created 
+                                                time.blog-date Dec 2018
+                                        .blog-inner    
+                                            .blog-user-inner
+                                                h4.blog-title Urna pretium elit mauris cursus...
+                                            .blog-user-icon
+                                                img(src="/assets/user/user.png", class="user-icon-img")
+                                                span Admin Admin
+                                            .blog-love-icon
+                                                img(src="/assets/love/love.png", class="love-icon-img")
+                                                span Hit: 136
+                                .swiper-slide.blog-latest
+                                    .blog-latest-container
+                                        .blog-latest-img-container
+                                            img(src="/assets/images/art-chairs-color.jpg", class="blog-latest-img")
+                                            span.blog-created 
+                                                time.blog-date Dec 2018
+                                        .blog-inner    
+                                            .blog-user-inner
+                                                h4.blog-title Urna pretium elit mauris cursus...
+                                            .blog-user-icon
+                                                img(src="/assets/user/user.png", class="user-icon-img")
+                                                span Admin Admin
+                                            .blog-love-icon
+                                                img(src="/assets/love/love.png", class="love-icon-img")
+                                                span Hit: 136
+                                .swiper-slide.blog-latest
+                                    .blog-latest-container
+                                        .blog-latest-img-container
+                                            img(src="/assets/images/art-chairs-color.jpg", class="blog-latest-img")
+                                            span.blog-created 
+                                                time.blog-date Dec 2018
+                                        .blog-inner    
+                                            .blog-user-inner
+                                                h4.blog-title Urna pretium elit mauris cursus...
+                                            .blog-user-icon
+                                                img(src="/assets/user/user.png", class="user-icon-img")
+                                                span Admin Admin
+                                            .blog-love-icon
+                                                img(src="/assets/love/love.png", class="love-icon-img")
+                                                span Hit: 136
+                                .swiper-slide.blog-latest
+                                    .blog-latest-container
+                                        .blog-latest-img-container
+                                            img(src="/assets/images/art-chairs-color.jpg", class="blog-latest-img")
+                                            span.blog-created 
+                                                time.blog-date Dec 2018
+                                        .blog-inner    
+                                            .blog-user-inner
+                                                h4.blog-title Urna pretium elit mauris cursus...
+                                            .blog-user-icon
+                                                img(src="/assets/user/user.png", class="user-icon-img")
+                                                span Admin Admin
+                                            .blog-love-icon
+                                                img(src="/assets/love/love.png", class="love-icon-img")
+                                                span Hit: 136
+                                
+                        .swiper-container.brands
+                            .swiper-wrapper.brands
+                                .swiper-slide.brands
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/m/2.jpg", class="brands-image")
+                                .swiper-slide.brands
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/m/2.jpg", class="brands-image")            
+                                .swiper-slide.brands
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/m/2.jpg", class="brands-image")     
+                                .swiper-slide.brands
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/m/2.jpg", class="brands-image")
+                                .swiper-slide.brands
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/m/2.jpg", class="brands-image")
+                                .swiper-slide.brands
+                                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/m/2.jpg", class="brands-image")
+                            .swiper-brands-arrow
+                                .swiper-brands-arrow-right
+                                    img(src="/assets/arrow-right/arrow-right.png", class="swiper-brands-arrow-right-img")
+                                .swiper-brands-arrow-left
+                                    img(src="/assets/arrow-left/arrow-left.png", class="swiper-brands-arrow-left-img")    
+        .footer.clearfix
+            .container
+                ul 
+                    li.col-newsletter
+                        h3.title-newsletter NEWSLETTER
+                        .footer-news-inner
+                            .container-subs
+                                img(src="/assets/plane/plane.png", class="subs-img")
+                            .container-news-inner-email-input
+                                input(type="text", placeholder="Your email address", class="news-inner-email-input")
+                        ul.footer-socmed-icons.clearfix
+                            li.footer-socmed-icons-item
+                                .icon-facebook
+                                    img(src="/assets/icons/icon-facebook.png", class="icon-facebook-img")
+                            li.footer-socmed-icons-item
+                                .icon-twitter
+                                    img(src="/assets/icons/icon-twitter.png", class="icon-twitter-img")
+                            li.footer-socmed-icons-item
+                                .icon-youtube
+                                    img(src="/assets/icons/icon-youtube.png", class="icon-youtube-img")
+                            li.footer-socmed-icons-item
+                                .icon-google
+                                    img(src="/assets/icons/icon-google-plus.png", class="icon-google-img")
+                            li.footer-socmed-icons-item
+                                .icon-instagram
+                                    img(src="/assets/icons/icon-instagram.png", class="icon-instagram-img")
+                    li.hidden-in-desktop
+                        .cc-mobile-container.clearfix.hidden-in-desktop
+                            .cc-item-visa.clearfix
+                                img(src="/assets/credit-cards/visa.png", class="cc-item-img cc-visa")
+                                img(src="/assets/credit-cards/paypal.png", class="cc-item-img cc-paypal")
+                                img(src="/assets/credit-cards/master-card.png", class="cc-item-img cc-master-card")
+                            .cc-item-2co
+                                img(src="/assets/credit-cards/2checkout.png", class="cc-item-img cc-2co")
+                                img(src="/assets/credit-cards/cirrus.png", class="cc-item-img cc-cirrus")
+                        .col-personal-info.hidden-in-desktop
+                            span.text-personal-info Personal info
+                            span.text-orders Orders
+                            span.text-credit-slips Credit slips
+                            span.text-addresses Addresses
+                        .col-copyright
+                            span.text-mobile-copyright © 2019 - Furniture Shop by Reihan Agam
+                    li.col-cc-and-account-list.hidden-in-mobile
+                        ul.cc-container.hidden-in-mobile
+                            li.cc-item
+                                img(src="/assets/credit-cards/visa.png", class="cc-item-img")
+                            li.cc-item
+                                img(src="/assets/credit-cards/paypal.png", class="cc-item-img")
+                            li.cc-item
+                                img(src="/assets/credit-cards/master-card.png", class="cc-item-img")
+                            li.cc-item
+                                img(src="/assets/credit-cards/2checkout.png", class="cc-item-img")
+                            li.cc-item
+                                img(src="/assets/credit-cards/cirrus.png", class="cc-item-img")
+                        ul.account-list-container.hidden-in-mobile
+                            li.account-list-item Personal info
+                            li.account-list-item Orders
+                            li.account-list-item Credit slips
+                            li.account-list-item Addresses
+                            li.account-list-item.copyright © 2019 - Furniture Shop by Reihan Agam
+                
+            .backdrop.products
+            .backdrop.other-products
+            
+            .modal.products
+                .modal-products-container-img
+                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="modal-products-img")
+                
+                .swiper-container.modal-products
+                    .swiper-wrapper
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/7/157-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/9/159-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/6/4/164-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/7/0/170-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/7/9/179-home_default.jpg", class="swiper-modal-products-img")
+                        
+                .modal-products-detail
+                    .modal-products-container-title
+                        h2.modal-products-title LOREM IPSUM DOLOR
+                    .modal-products-container-price
+                        span.modal-products-price $23.90
+                    p.modal-products-description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eros sapien, tempus non odio ac, egestas fringilla nulla. Mauris non felis sed velit lacinia mollis. Sed vel elit commodo, pulvinar mi vel
+                    .modal-products-size-container
+                        label.modal-products-size-label Size
+                        select.modal-products-size-select
+                            option S
+                            option M
+                            option L
+                            option XL
+                    .modal-products-color-container
+                        label.modal-products-color-label Color
+                        input(type="radio", class="modal-products-radio-white-color") 
+                        input(type="radio", class="modal-products-radio-black-color") 
+                    .container-qty 
+                        .container-arrow-up-increment-qty-img
+                            img(src="/assets/arrow/arrow.png", class="arrow-up-increment-qty-img")
+                        .container-arrow-down-decrement-qty-img
+                            img(src="/assets/arrow/arrow.png", class="arrow-down-decrement-qty-img")
+                        label.modal-products-qty-label Quantity
+                        input(type="text", class="qty-input")
+                        .modal-products-add-to-cart Add to Cart
+                .modal-close X
+                img(src="/assets/arrow/arrow.png", class="swiper-modal-products-arrow-up")
+                img(src="/assets/arrow/arrow.png", class="swiper-modal-products-arrow-down")
+                
+            .modal.other-products
+                .modal-products-container-img
+                    img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="modal-products-img")
+                
+                .swiper-container.modal-products
+                    .swiper-wrapper
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/4/9/149-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/7/157-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/5/9/159-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/6/4/164-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/7/0/170-home_default.jpg", class="swiper-modal-products-img")
+                        .swiper-slide
+                            img(src="https://themedemos.aurawebsol.com/prestashop/addons1/38ethnic/img/p/1/7/9/179-home_default.jpg", class="swiper-modal-products-img")
+                        
+                .modal-products-detail
+                    .modal-products-container-title
+                        h2.modal-products-title LOREM IPSUM DOLOR
+                    .modal-products-container-price
+                        span.modal-products-price $23.90
+                    p.modal-products-description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eros sapien, tempus non odio ac, egestas fringilla nulla. Mauris non felis sed velit lacinia mollis. Sed vel elit commodo, pulvinar mi vel
+                    .modal-products-size-container
+                        label.modal-products-size-label Size
+                        select.modal-products-size-select
+                            option S
+                            option M
+                            option L
+                            option XL
+                    .modal-products-color-container
+                        label.modal-products-color-label Color
+                        input(type="radio", class="modal-products-radio-white-color") 
+                        input(type="radio", class="modal-products-radio-black-color") 
+                    .container-qty 
+                        .container-arrow-up-increment-qty-img
+                            img(src="/assets/arrow/arrow.png", class="arrow-up-increment-qty-img")
+                        .container-arrow-down-decrement-qty-img
+                            img(src="/assets/arrow/arrow.png", class="arrow-down-decrement-qty-img")
+                        label.modal-products-qty-label Quantity
+                        input(type="text", class="qty-input")
+                        .modal-products-add-to-cart Add to Cart
+                .modal-close X
+                img(src="/assets/arrow/arrow.png", class="swiper-modal-products-arrow-up")
+                img(src="/assets/arrow/arrow.png", class="swiper-modal-products-arrow-down")
+                                            
+        script(src="/assets-dev/js/jquery.min.js")
+        script(src="/assets-dev/js/swiper/swiper.js")
+        script(src="/assets-dev/js/swiper/swiper.min.js")
+        script(src="/assets-dev/js/countdown/countdown.js")
+
+        script.          
+            let $modal_products = $('.modal.products');  
+            let $backdrop_products = $('.backdrop.products');
+        
+            let $modal_other_products = $('.modal.other-products');
+            let $backdrop_other_products = $('.backdrop.other-products');
+        
+            let $close_modal = $('.modal-close');
+        
+            //- let $index = 0;
+            //- let $items = $('.vertical-slider-item');
+            //- let $total = $items.length;
+            //- 
+            //- function slide() {
+            //-     let $item = $('vertical-slider-item').eq($index);
+            //-     console.log($item);
+            //-     $items.slideUp();
+            //-     $item.slideDown();
+            //- }
+            //- 
+            //- var autoslide = setInterval(function() {
+            //-     $index += 1
+            //-     if($index > $total - 1) $index = 0;
+            //-     slide()
+            //- }, 2000)
+        
+            let $blog_latest_post_1 = $(".blog-latest-container.1");
+            let $blog_latest_post_2 = $(".blog-latest-container.2");
+            let $blog_latest_post_3 = $(".blog-latest-container.3");
+        
+            let $blog_latest_post_img_1 = $(".blog-latest-img.1");
+            let $blog_latest_post_img_2 = $(".blog-latest-img.2");
+            let $blog_latest_post_img_3 = $(".blog-latest-img.3");
+        
+            let $eye_quick_view_clear_timeout;
+        
+            let $products_item_hover = $(".products-item-li.1");
+            let $products_info_hover = $(".products-info-hovered.1");
+            let $products_change_hover = $(".products-img-hovered.1");
+            let $products_info_add_to_cart = $(".products-info-add-to-cart.1 a");
+            let $products_rate = $(".products-info-rate.1");
+            
+            let $products_item_hover_2 = $(".products-item-li.2");
+            let $products_info_hover_2 = $(".products-info-hovered.2");
+            let $products_change_hover_2 = $(".products-img-hovered.2");
+            let $products_info_add_to_cart_2 = $(".products-info-add-to-cart.2 a");
+            let $products_rate_2 = $(".products-info-rate.2");
+            
+            let $products_item_hover_3 = $(".products-item-li.3");
+            let $products_info_hover_3 = $(".products-info-hovered.3");
+            let $products_change_hover_3 = $(".products-img-hovered.3");
+            let $products_info_add_to_cart_3 = $(".products-info-add-to-cart.3 a");
+            let $products_rate_3 = $(".products-info-rate.3");
+            
+            let $products_item_hover_4 = $(".products-item-li.4");
+            let $products_info_hover_4 = $(".products-info-hovered.4");
+            let $products_change_hover_4 = $(".products-img-hovered.4");
+            let $products_info_add_to_cart_4 = $(".products-info-add-to-cart.4 a");
+            let $products_rate_4 = $(".products-info-rate.4");
+        
+            let $products_item_hover_onsale = $(".products-item-li-onsale.1");
+            let $products_info_hover_onsale = $(".products-info-hovered-onsale.1");
+            let $products_change_hover_onsale = $(".products-img-hovered-onsale.1");
+            let $products_info_add_to_cart_onsale = $(".products-info-add-to-cart-onsale.1 a");
+            let $products_rate_onsale = $(".products-info-rate-onsale.1");
+            
+            let $products_item_hover_onsale_2 = $(".products-item-li-onsale.2");
+            let $products_info_hover_onsale_2 = $(".products-info-hovered-onsale.2");
+            let $products_change_hover_onsale_2 = $(".products-img-hovered-onsale.2");
+            let $products_info_add_to_cart_onsale_2 = $(".products-info-add-to-cart-onsale.2 a");
+            let $products_rate_onsale_2 = $(".products-info-rate-onsale.2");
+            
+            let $products_item_hover_onsale_3 = $(".products-item-li-onsale.3");
+            let $products_info_hover_onsale_3 = $(".products-info-hovered-onsale.3");
+            let $products_change_hover_onsale_3 = $(".products-img-hovered-onsale.3");
+            let $products_info_add_to_cart_onsale_3 = $(".products-info-add-to-cart-onsale.3 a");
+            let $products_rate_onsale_3 = $(".products-info-rate-onsale.3");
+            
+            let $products_item_hover_onsale_4 = $(".products-item-li-onsale.4");
+            let $products_info_hover_onsale_4 = $(".products-info-hovered-onsale.4");
+            let $products_change_hover_onsale_4 = $(".products-img-hovered-onsale.4");
+            let $products_info_add_to_cart_onsale_4 = $(".products-info-add-to-cart-onsale.4 a");
+            let $products_rate_onsale_4 = $(".products-info-rate-onsale.4");
+        
+            let $eye_style_hover = $(".products-info-eye-style.1");
+            let $eye_style_img = $(".products-info-eye-style-img.1");
+            let $eye_quick_view = $(".products-info-eye-quick-view.1");
+            
+            let $eye_style_hover_2 = $(".products-info-eye-style.2");
+            let $eye_style_img_2 = $(".products-info-eye-style-img.2");
+            let $eye_quick_view_2 = $(".products-info-eye-quick-view.2");
+        
+            let $eye_style_hover_3 = $(".products-info-eye-style.3");
+            let $eye_style_img_3 = $(".products-info-eye-style-img.3");
+            let $eye_quick_view_3 = $(".products-info-eye-quick-view.3");
+
+            let $eye_style_hover_4 = $(".products-info-eye-style.4");
+            let $eye_style_img_4 = $(".products-info-eye-style-img.4");
+            let $eye_quick_view_4 = $(".products-info-eye-quick-view.4");
+        
+            let $eye_style_hover_onsale = $(".products-info-eye-style-onsale.1");
+            let $eye_style_img_onsale = $(".products-info-eye-style-img-onsale.1");
+            let $eye_quick_view_onsale = $(".products-info-eye-quick-view-onsale.1");
+            
+            let $eye_style_hover_onsale_2 = $(".products-info-eye-style-onsale.2");
+            let $eye_style_img_onsale_2 = $(".products-info-eye-style-img-onsale.2");
+            let $eye_quick_view_onsale_2 = $(".products-info-eye-quick-view-onsale.2");
+            
+            let $eye_style_hover_onsale_3 = $(".products-info-eye-style-onsale.3");
+            let $eye_style_img_onsale_3 = $(".products-info-eye-style-img-onsale.3");
+            let $eye_quick_view_onsale_3 = $(".products-info-eye-quick-view-onsale.3");
+            
+            let $eye_style_hover_onsale_4 = $(".products-info-eye-style-onsale.4");
+            let $eye_style_img_onsale_4 = $(".products-info-eye-style-img-onsale.4");
+            let $eye_quick_view_onsale_4 = $(".products-info-eye-quick-view-onsale.4");
+            
+            
+            let $discount_banner = $(".discount-banner");
+            let $discount_banner_link = $(".discount-banner-link");
+        
+            let $search_input = $(".container-input-search");
+        
+            let $box_promotion = $(".box-promotion");
+        
+            let $box_search = $(".container-box-search");
+            
+            //- PROTOTYPE TOGGLE CLICK
+            
+            (function($) {
+                $.fn.clickToggle = function(func1, func2) {
+                    var funcs = [func1, func2];
+                    this.data('toggleclicked', 0);
+                    this.click(function() {
+                        var data = $(this).data();
+                        var tc = data.toggleclicked;
+                        $.proxy(funcs[tc], this)();
+                        data.toggleclicked = (tc + 1) % 2;
+                    });
+                    return this;
+                };
+            }(jQuery));
+        
+            //- SWIPER
+        
+            new Swiper(".swiper-container.home", {
+                spaceBetween: 30,
+                fadeEffect: {
+                    crossFade: true
+                },
+                effect: 'fade',
+                navigation: {
+                    nextEl: ".swiper-button-next.home",
+                    prevEl: ".swiper-button-prev.home",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        
+            new Swiper(".swiper-container.testimonial", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        
+            new Swiper(".swiper-container.blog-latest", {
+                slidesPerView: 3,
+                navigation: {
+                    nextEl: ".swiper-blog-arrow-right-img",
+                    prevEl: ".swiper-blog-arrow-left-img",
+                },
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 2
+                    },
+                    768: {
+                        slidesPerView: 1
+                    },
+                    360: {
+                        slidesPerView: 1
+                    }
+                }
+            });
+        
+            new Swiper(".swiper-container.brands", {
+                slidesPerView: 5,
+                navigation: {
+                    nextEl: ".swiper-brands-arrow-right-img",
+                    prevEl: ".swiper-brands-arrow-left-img"
+                },
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 3
+                    },
+                    768: {
+                        slidesPerView: 1
+                    },
+                    360: {
+                        slidesPerView: 1
+                    },
+                }
+            });
+        
+            new Swiper(".swiper-container.modal-products", {
+                slidesPerView: 4,
+                direction: 'vertical',
+                navigation: {
+                    nextEl: ".swiper-modal-products-arrow-up",
+                    prevEl: ".swiper-modal-products-arrow-down"
+                },
+            });
+        
+            $(function() {
+        
+                //- ADD STICKY NAV WHEN SCROLLING PAGE
+        
+                $(window).scroll(function() {
+                    if($(this).scrollTop() > 200) {
+                        $(".menu").addClass("sticky");
+                    } else {
+                        $(".menu").removeClass("sticky");
+                    }
+                });
+            
+                $discount_banner.hover(function() {
+                    $discount_banner_link.css({
+                        background: "#000000",
+                        color: "#ffffff",
+                        borderColor: "#000000"
+                    })
+                }, function() {
+                    $discount_banner_link.css({
+                        background: "transparent",
+                        color: "#ffffff",
+                        borderColor: "#ffffff"
+                    })
+                });
+            
+                $(".swiper-container.home").hover(function() {
+                    $(".swiper-button-next.home").css({
+                        visibility: "visible",
+                        opacity: "1"
+                    })
+                    $(".swiper-button-prev.home").css({
+                        visibility: "visible",
+                        opacity: "1"
+                    })
+                }, function(){
+                    $(".swiper-button-next.home").css({
+                        visibility: "hidden",
+                        opacity: "0",
+                        transition: "visibility 0s, opacity 0.45s" 
+                    })
+                    $(".swiper-button-prev.home").css({
+                        visibility: "hidden",
+                        opacity: "0",
+                        transition: "visibility 0s, opacity 0.45s" 
+                    })
+                });
+            
+                $(".container-language").click(function() {
+                    $(".container-language-item").slideToggle();
+                });
+                $(".container-currency").click(function() {
+                    $(".container-currency-item").slideToggle();
+                });
+                 $(".categories-title").click(function() {
+                    $(".category-item-li").slideToggle();
+                });
+            
+                $('.service-item-li.ship').hover(function() {
+                    $('.service-item-title.ship').css({
+                        color: "#fa6161", 
+                        transition: "color .3s ease-in-out"
+                    })
+                    $('.ship-img').css({
+                        transform: "translate3d(0, -78px, 0)"
+                    })
+                }, function() {
+                    $('.service-item-title.ship').css({
+                        color: "#000000"
+                    })
+                    $('.ship-img').css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+            
+                $('.service-item-li.truck').hover(function() {
+                    $('.service-item-title.truck').css({
+                        color: "#fa6161", 
+                        transition: "color .3s ease-in-out"
+                    })
+                    $('.truck-img').css({
+                        transform: "translate3d(0, -75px, 0)"
+                    })
+                }, function() {
+                    $('.service-item-title.truck').css({
+                        color: "#000000",
+                    })
+                    $('.truck-img').css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+            
+                $('.service-item-li.speaker').hover(function() {
+                    $('.service-item-title.speaker').css({
+                        color: "#fa6161", 
+                        transition: "color .3s ease-in-out"
+                    })
+                    $('.speaker-img').css({
+                        transform: "translate3d(0, -70px, 0)"
+                    })
+                }, function() {
+                    $('.service-item-title.speaker').css({
+                        color: "#000000"
+                    })
+                    $('.speaker-img').css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+            
+                $('.service-item-li.hand').hover(function() {
+                    $('.service-item-title.hand').css({
+                        color: "#fa6161",
+                        transition: "color .3s ease-in-out"
+                    })
+                    $('.hand-img').css({
+                        transform: "translate3d(0, -78px, 0)"
+                    })
+                }, function() {
+                    $('.service-item-title.hand').css({
+                        color: "#000000",
+                        transition: "color .3s ease-in-out"
+                    })
+                    $('.hand-img').css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+            
+                //- PULSE EFFECT
+            
+                //- $adsImage.hover(function() {
+                //-   $(this).find("#pulse-effect-1").css({
+                //-         visibility: "visible",
+                //-         animation: "effectShowScale 0.2s",
+                //-         background: "rgba(255, 0, 0, 0.1)"
+                //-   })
+                //-   $(this).find("#pulse-effect-2").delay(260).queue(function(next){
+                //-       $(this).css({
+                //-             visibility: "visible",
+                //-             animation: "effectShowScale 0.2s",
+                //-             background: "rgba(255, 0, 0, 0.2)"
+                //-       })
+                //-         next();
+                //-   })
+                //-   }, function() {
+                //-   $(this).find("#pulse-effect-1").css({
+                //-         transition: "visibility 300ms",
+                //-         visibility: "hidden",
+                //-         animation: "effectShowScaleClose 300ms"
+                //-   })
+                //-   $(this).find("#pulse-effect-2").css({
+                //-         transition: "visibility 800ms",
+                //-         visibility: "hidden",
+                //-         animation: "effectShowScaleClose 800ms"
+                //-   })
+                //- })
+            
+                $box_promotion.hover(function() {
+                    $(".box-promotion-title").css({
+                        color: "#fff"
+                    })
+                    $(".box-promotion-link").css({
+                        background: "black",
+                    })
+                }, function() {
+                    $(".box-promotion-title").css({
+                        color: "#fa6161"
+                    })
+                    $(".box-promotion-link").css({
+                        background: "#fa6161",
+                    })
+                });
+            
+                $eye_style_hover.hover(function() {
+                    $eye_style_img.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view.css({
+                        visibility: "visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                    $eye_style_img.css({
+                       transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view.animate({
+                            left: "30%"
+                        })
+                    }), 1)
+                });
+                
+                $eye_style_hover_2.hover(function() {
+                    $eye_style_img_2.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view_2.css({
+                        visibility: "visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view_2.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                    $eye_style_img_2.css({
+                       transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view_2.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view_2.animate({
+                            left: "30%"
+                        })
+                    }), 1)
+                });
+                
+                $eye_style_hover_3.hover(function() {
+                    $eye_style_img_2.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view_3.css({
+                        visibility: "visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view_3.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                    $eye_style_img_3.css({
+                       transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view_3.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view_3.animate({
+                            left: "30%"
+                        })
+                    }), 1)
+                });
+                
+                $eye_style_hover_4.hover(function() {
+                    $eye_style_img_4.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view_4.css({
+                        visibility: "visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view_4.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                    $eye_style_img_4.css({
+                       transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view_4.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view_4.animate({
+                            left: "30%"
+                        })
+                    }), 1)
+                });
+            
+                $eye_style_hover_onsale.hover(function() {
+                    $eye_style_img_onsale.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view_onsale.css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view_onsale.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                     $eye_style_img_onsale.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view_onsale.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view_onsale.animate({
+                            left: "30%"
+                        })
+                     }), 1)
+                });
+                
+                $eye_style_hover_onsale_2.hover(function() {
+                    $eye_style_img_onsale_2.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view_onsale_2.css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view_onsale_2.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                     $eye_style_img_onsale_2.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view_onsale_2.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view_onsale_2.animate({
+                            left: "30%"
+                        })
+                     }), 1)
+                });
+                
+                $eye_style_hover_onsale_3.hover(function() {
+                    $eye_style_img_onsale_3.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view_onsale_3.css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view_onsale_3.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                     $eye_style_img_onsale_3.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view_onsale_3.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view_onsale_3.animate({
+                            left: "30%"
+                        })
+                     }), 1)
+                });
+                
+                $eye_style_hover_onsale_4.hover(function() {
+                    $eye_style_img_onsale_4.css({
+                        transform: "translate3d(0, -60px, 0)"
+                    })
+                    $eye_quick_view_onsale_4.css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $eye_quick_view_onsale_4.animate({
+                        left: "20%"
+                    })
+                }, function() {
+                     $eye_style_img_onsale_4.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                     $eye_quick_view_clear_timeout = setTimeout((function() {
+                        $eye_quick_view_onsale_4.css({
+                            transition:"visibility 0.5s, opacity 0.5s linear",
+                            visibility:"hidden",
+                            opacity:"0"
+                        })
+                        $eye_quick_view_onsale_4.animate({
+                            left: "30%"
+                        })
+                     }), 1)
+                });
+            
+                $box_search.hover(function() {
+                    $(".box-search-img").css({
+                        transform: "translate3d(0, -44px, 0)"
+                    })
+                  },function() {
+                    $(".box-search-img").css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+            
+                $box_search.click(function() {
+                    if($search_input.css("display") === "none") {
+                        $(".box-search-img").attr("src", "/assets/close/close.png").css({
+                            transform: "translate3d(0, -127px, 0)"
+                        })
+                        $(this).hover(function() {
+                            $(".box-search-img").css({
+                                transform: "translate3d(0, -127px, 0)"
+                            })
+                        }, function() {
+                            $(".box-search-img").css({
+                                transform: "translate3d(0, -73px, 0)"
+                            })
+                        })
+                        $search_input.slideDown()
+                    } else {
+                            $(".box-search-img").css({
+                                transform: "translate3d(0, 0, 0)"
+                            })
+                            $(this).hover(function() {
+                                $(".box-search-img").css({
+                                    transform: "translate3d(0, -44px, 0)"
+                                })
+                            }, function() {
+                                $(".box-search-img").css({
+                                    transform: "translate3d(0, 0, 0)"
+                                })
+                            })
+                        $search_input.slideUp()
+                    }
+                });
+            
+                $('.container-input-search-img').hover(function() {
+                    $(".input-search-img").css({
+                        transform: "translate3d(0, -44px, 0)"
+                    });
+                }, function() {
+                    $(".input-search-img").css({
+                        transform: "translate3d(0, 0, 0)",
+                    }); 
+                });
+            
+                $(".container-input-search-img-mobile").hover(function() {
+                    $(".input-search-img-mobile").css({
+                        transform: "translate3d(0, -44px, 0)"
+                    });
+                }, function() {
+                    $(".input-search-img-mobile").css({
+                        transform: "translate3d(0, 0, 0)",
+                    });  
+                });
+            
+                $eye_quick_view.hover(function() {
+                    clearTimeout($eye_quick_view_clear_timeout)
+                    $(this).css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $(this).animate({
+                        left: "20%"
+                    })
+                    $eye_style_img.css({
+                        transform:"translate3d(0, -60px, 0)"
+                    })
+                }, function() {
+                    $(this).css({
+                        visibility:"hidden",
+                        transition:"visibility 0.5s, opacity 0.5s linear",
+                        opacity:"0"
+                    })
+                    $(this).animate({
+                        left: "30%"
+                    })
+                    $eye_style_img.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+                
+                $eye_quick_view_2.hover(function() {
+                    clearTimeout($eye_quick_view_clear_timeout)
+                    $(this).css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $(this).animate({
+                        left: "20%"
+                    })
+                    $eye_style_img_2.css({
+                        transform:"translate3d(0, -60px, 0)"
+                    })
+                }, function() {
+                    $(this).css({
+                        visibility:"hidden",
+                        transition:"visibility 0.5s, opacity 0.5s linear",
+                        opacity:"0"
+                    })
+                    $(this).animate({
+                        left: "30%"
+                    })
+                    $eye_style_img_2.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+                
+                $eye_quick_view_3.hover(function() {
+                    clearTimeout($eye_quick_view_clear_timeout)
+                    $(this).css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $(this).animate({
+                        left: "20%"
+                    })
+                    $eye_style_img_3.css({
+                        transform:"translate3d(0, -60px, 0)"
+                    })
+                }, function() {
+                    $(this).css({
+                        visibility:"hidden",
+                        transition:"visibility 0.5s, opacity 0.5s linear",
+                        opacity:"0"
+                    })
+                    $(this).animate({
+                        left: "30%"
+                    })
+                    $eye_style_img_3.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+                
+                $eye_quick_view_4.hover(function() {
+                    clearTimeout($eye_quick_view_clear_timeout)
+                    $(this).css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $(this).animate({
+                        left: "20%"
+                    })
+                    $eye_style_img_4.css({
+                        transform:"translate3d(0, -60px, 0)"
+                    })
+                }, function() {
+                    $(this).css({
+                        visibility:"hidden",
+                        transition:"visibility 0.5s, opacity 0.5s linear",
+                        opacity:"0"
+                    })
+                    $(this).animate({
+                        left: "30%"
+                    })
+                    $eye_style_img_4.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+            
+                $eye_quick_view_onsale.hover(function() {
+                    clearTimeout($eye_quick_view_clear_timeout)
+                    $(this).css({
+                        visibility:"visible",
+                        opacity: "1"
+                    })
+                    $(this).animate({
+                        left: "20%"
+                    })
+                    $eye_style_img_onsale.css({
+                        transform:"translate3d(0, -60px, 0)"
+                    })
+                }, function() {
+                    $(this).css({
+                        visibility:"hidden",
+                        transition:"visibility 0.5s, opacity 0.5s linear",
+                        opacity:"0"
+                    })
+                    $(this).animate({
+                        left: "30%"
+                    })
+                    $eye_style_img_onsale.css({
+                        transform: "translate3d(0, 0, 0)"
+                    })
+                });
+            
+                $products_item_hover.hover(function() {
+                    $products_info_hover.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart.css("transition", "0.5s")
+                    $products_rate.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                    })
+                   $eye_style_hover.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                    })
+                }, function() {
+                    $products_info_hover.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                    $products_info_add_to_cart.css({
+                        transition: "none"
+                    })
+                    $products_rate.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                     })
+                    $eye_style_hover.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                });
+                
+                $products_item_hover_2.hover(function() {
+                    $products_info_hover_2.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart_2.css("transition", "0.5s")
+                    $products_rate_2.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                    })
+                   $eye_style_hover_2.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover_2.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                    })
+                }, function() {
+                    $products_info_hover_2.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                    $products_info_add_to_cart_2.css({
+                        transition: "none"
+                    })
+                    $products_rate_2.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                     })
+                    $eye_style_hover_2.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover_2.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                });
+                
+                $products_item_hover_3.hover(function() {
+                    $products_info_hover_3.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart_3.css("transition", "0.5s")
+                    $products_rate_3.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                    })
+                   $eye_style_hover_3.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover_3.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                    })
+                }, function() {
+                    $products_info_hover_3.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                    $products_info_add_to_cart_3.css({
+                        transition: "none"
+                    })
+                    $products_rate_3.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                     })
+                    $eye_style_hover_3.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover_3.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                });
+                
+                $products_item_hover_4.hover(function() {
+                    $products_info_hover_4.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart_4.css("transition", "0.5s")
+                    $products_rate_4.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                    })
+                   $eye_style_hover_4.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover_4.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                    })
+                }, function() {
+                    $products_info_hover_4.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                    $products_info_add_to_cart_4.css({
+                        transition: "none"
+                    })
+                    $products_rate_4.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                     })
+                    $eye_style_hover_4.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    })
+                    $products_change_hover_4.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    })
+                });
+            
+                $products_item_hover_onsale.hover(function() {
+                    $products_info_hover_onsale.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart_onsale.css({
+                      "transition": "0.5s"
+                    })
+                    $products_rate_onsale.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                   })
+                    $eye_style_hover_onsale.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                   })
+                    $products_change_hover_onsale.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                   })
+                }, function() {
+                    $products_info_hover_onsale.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                    $products_info_add_to_cart_onsale.css({
+                        transition: "none"
+                    });
+                    $products_rate_onsale.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                    });
+                    $eye_style_hover_onsale.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    });
+                    $products_change_hover_onsale.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                });
+                
+                $products_item_hover_onsale_2.hover(function() {
+                    $products_info_hover_onsale_2.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart_onsale_2.css({
+                      "transition": "0.5s"
+                    })
+                    $products_rate_onsale_2.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                   })
+                    $eye_style_hover_onsale_2.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                   })
+                    $products_change_hover_onsale_2.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                   })
+                }, function() {
+                    $products_info_hover_onsale_2.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                    $products_info_add_to_cart_onsale_2.css({
+                        transition: "none"
+                    });
+                    $products_rate_onsale_2.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                    });
+                    $eye_style_hover_onsale_2.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    });
+                    $products_change_hover_onsale_2.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                });
+                
+                $products_item_hover_onsale_3.hover(function() {
+                    $products_info_hover_onsale_3.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart_onsale_3.css({
+                      "transition": "0.5s"
+                    })
+                    $products_rate_onsale_3.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                   })
+                    $eye_style_hover_onsale_3.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                   })
+                    $products_change_hover_onsale_3.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                   })
+                }, function() {
+                    $products_info_hover_onsale_3.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                    $products_info_add_to_cart_onsale_3.css({
+                        transition: "none"
+                    });
+                    $products_rate_onsale_3.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                    });
+                    $eye_style_hover_onsale_3.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    });
+                    $products_change_hover_onsale_3.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                });
+                
+                $products_item_hover_onsale_4.hover(function() {
+                    $products_info_hover_onsale_4.css({
+                        animation:"effectShowScale 0.3s",
+                        visibility: "visible"
+                    })
+                    $products_info_add_to_cart_onsale_4.css({
+                      "transition": "0.5s"
+                    })
+                    $products_rate_onsale_4.css({
+                        animation:"effectShowScale 0.3s",
+                        transition:"visibility 0.3s",
+                        visibility:"visible",
+                        "transform-origin": "25%"
+                   })
+                    $eye_style_hover_onsale_4.css({
+                        animation:"effectShowScale 500ms",
+                        transition:"visibility 0.3s",
+                        visibility: "visible",
+                        "transform-origin": "top right"
+                   })
+                    $products_change_hover_onsale_4.css({
+                        animation:"effectShowScale 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "visible"
+                   })
+                }, function() {
+                    $products_info_hover_onsale_4.css({
+                        animation:"effectShowScaleClose 0.8s",
+                        transition:"visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                    $products_info_add_to_cart_onsale_4.css({
+                        transition: "none"
+                    });
+                    $products_rate_onsale_4.css({
+                        animation: "effectShowScaleClose 0.5s",
+                        transition: "visibility 0.5s",
+                        visibility: "hidden"
+                    });
+                    $eye_style_hover_onsale_4.css({
+                        animation: "effectShowScaleClose 0.3s",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden",
+                        "transform-origin": "top right"
+                    });
+                    $products_change_hover_onsale_4.css({
+                        animation:"effectShowScaleClose 500ms",
+                        transition: "visibility 0.3s",
+                        visibility: "hidden"
+                    });
+                });
+            
+                //- $blog_latest_post_1.hover(function() {
+                //-     $blog_latest_post_img_1.css({
+                //-         transition: "transform .4s ease", 
+                //-         transform: "scale(1.08)"
+                //-     });
+                //- }, function() {
+                //-     $blog_latest_post_img_1.css({
+                //-         transform: "scale(1)" 
+                //-     });
+                //- });
+                //- 
+                //- $blog_latest_post_2.hover(function() {
+                //-     $blog_latest_post_img_2.css({
+                //-         transition: "transform .4s ease", 
+                //-         transform: "scale(1.08)"
+                //-     });
+                //- }, function() {
+                //-     $blog_latest_post_img_2.css({
+                //-         transform: "scale(1)" 
+                //-     });
+                //- });
+                //- 
+                //- $blog_latest_post_3.hover(function() {
+                //-     $blog_latest_post_img_3.css({
+                //-         transition: "transform .4s ease", 
+                //-         transform: "scale(1.08)"
+                //-     });
+                //- }, function() {
+                //-     $blog_latest_post_img_3.css({
+                //-         transform: "scale(1)" 
+                //-     });
+                //- });
+                //- 
+            
+            
+                //- MODAL PRODUCTS
+            
+                $eye_style_hover.click(function() {
+                    $modal_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                });
+                
+                $eye_style_hover_2.click(function() {
+                    $modal_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                });
+                
+                $eye_style_hover_3.click(function() {
+                    $modal_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                });
+                
+                $eye_style_hover_4.click(function() {
+                    $modal_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                });
+            
+                $backdrop_products.click(function() {
+                    $modal_products.css({
+                        top: '0', 
+                        opacity: '0',
+                        visibility: 'hidden'
+                    });
+                    $(this).css({
+                        visibility: 'hidden',
+                        opacity: '0'
+                    })
+                });
+            
+                $eye_style_hover_onsale.click(function() {
+                    $modal_other_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_other_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                })
+                
+                $eye_style_hover_onsale_2.click(function() {
+                    $modal_other_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_other_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                })
+                
+                $eye_style_hover_onsale_3.click(function() {
+                    $modal_other_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_other_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                })
+                $eye_style_hover_onsale_4.click(function() {
+                    $modal_other_products.css({
+                        top: '6%', 
+                        opacity: '1',
+                        visibility: 'visible'
+                    });
+                    $backdrop_other_products.css({
+                        visibility: 'visible',
+                        opacity: '1'
+                    })
+                })
+            
+                $backdrop_other_products.click(function() {
+                    $modal_other_products
+                    .css({
+                        top:'0', 
+                        opacity: '0',
+                        visibility: 'hidden'
+                    });
+                    $(this).css({
+                        visibility: 'hidden',
+                        opacity: '0'
+                    })
+                });
+            
+                $close_modal.click(function() {
+                    $modal_products.css({
+                        top: '0', 
+                        opacity: '0',
+                        visibility: 'hidden'
+                    });
+                    $backdrop_products.css({
+                        visibility: 'hidden',
+                        opacity: '0'
+                    })
+            
+                    $modal_other_products.css({
+                        top: '0', 
+                        opacity: '0',
+                        visibility: 'hidden'
+                    });
+                    $backdrop_other_products.css({
+                        visibility: 'hidden',
+                        opacity: '0'
+                    })
+                })
+            
+            
+                $(".modal-products-radio-white-color").click(function() {
+                    //- if($(this).prop('checked', true)) {
+                    //-     console.log('checked!');
+                    //-     $(this).addClass('active-color');
+                    //- } 
+                    if($(this).is(':checked')) {
+                        $(".modal-products-radio-black-color").prop("checked", false);
+                        $(".modal-products-radio-black-color").removeClass("active-color");
+                        $(this).addClass('active-color');
+                    }
+                    //- else if($(this).is(":not(:checked)")) {
+                    //-     alert('unchecked!');
+                    //- }
+                    //- else if($(this).prop('checked', false)) {
+                    //-     console.log('not checked!');
+                    //- }
+                });
+            
+                $(".modal-products-radio-black-color").click(function() {
+                    //- if($(this).prop('checked', true)) {
+                    //-     console.log('checked!');
+                    //-     $(this).addClass('active-color');
+                    //- } 
+                    if($(this).is(':checked')) {
+                        $(".modal-products-radio-white-color").prop("checked", false);
+                        $(".modal-products-radio-white-color").removeClass("active-color");
+                        $(this).addClass('active-color')
+                    }
+                    //- else if($(this).is(":not(:checked)")) {
+                    //-     alert('unchecked!');
+                    //- }
+                    //- else if($(this).prop('checked', false)) {
+                    //-     console.log('not checked!');
+                    //- }
+                });
+            
+                $('.qty-input').keypress(function(event) {
+                    var charCode = (event.which) ? event.which : event.keyCode
+                    if (charCode > 31 && (charCode < 48 || charCode > 57))
+                    return false;
+            
+                    return true;
+                })
+            
+                $('.container-arrow-up-increment-qty-img').on("click", function() {
+                    var old_val = $(".qty-input").val();
+                    var new_val =+ old_val + 1;
+                
+                    $(".qty-input").val(new_val);
+                });
+            
+                $('.container-arrow-down-decrement-qty-img').on("click", function() {
+                    var old_val = $(".qty-input").val();
+            
+                    if (old_val > 1) {
+                        var new_val =+ old_val - 1;
+                    } else {
+                        new_val = 1;
+                    }
+            
+                    $(".qty-input").val(new_val);
+                });
+            
+                $('.swiper-modal-products-img').click(function(event) {
+                    $('.modal-products-img').attr('src', event.currentTarget.src);
+                });
+                
+                $('.hamburger-menu-icon').clickToggle(function() {
+                    $('.left-menu-mobile').css({
+                        display: 'block'
+                    });
+                
+                    $('body').css({
+                        overflow: 'hidden'
+                    });
+                }, function() {
+                    $('.left-menu-mobile').css({
+                        display: 'none'
+                    });
+                
+                    $('body').css({
+                        overflow: 'auto'
+                    });
+                });
+                
+                
+            
+                //- $(".button").on("click", function() {
+                //- 
+                //-     var old_val = $("qty-input").val();
+                //- 
+                //-     if ($(this).text() == "+") {
+                //- 	    var new_val = parseFloat(old_val) + 1;
+                //- 	} else {
+                //-         if (oldValue > 1) {
+                //-             var new_val = parseFloat(old_val) - 1;
+                //-         } else {
+                //-             new_val = 1;
+                //-         }
+                //-     }
+                //- 
+                //-     $("qty-input").val(new_val);
+                //- 
+                //- });          
+                
+                //- $('.furniture-li-mobile-menu').click(function() {
+                //-     $('.furniture-sub-ul-mobile-menu').css('max-height','100px');            
+                //- });
+                $('.furniture-btn').clickToggle(function() {
+                    $('.furniture-sub-ul-mobile-menu').css({
+                        maxHeight: '180px'
+                    });
+                }, function() {
+                    $('.furniture-sub-ul-mobile-menu').css({
+                        maxHeight: '0'
+                    });                
+                });
+                
+                $('.table-btn').clickToggle(function() {
+                    $('.furniture-table-sub-ul-mobile-menu').css({
+                        maxHeight: '100px'
+                    });
+                }, function() {
+                    $('.furniture-table-sub-ul-mobile-menu').css({
+                        maxHeight: '0'
+                    });      
+                });
+                
+                $('.chair-btn').clickToggle(function() {
+                    $('.furniture-chair-sub-ul-mobile-menu').css({
+                        maxHeight: '100px'
+                    });
+                }, function() {
+                    $('.furniture-chair-sub-ul-mobile-menu').css({
+                        maxHeight: '0'
+                    });      
+                });
+                
+                $('.desks-btn').clickToggle(function() {
+                    $('.furniture-desks-sub-ul-mobile-menu').css({
+                        maxHeight: '100px'
+                    });
+                },function() {
+                    $('.furniture-desks-sub-ul-mobile-menu').css({
+                        maxHeight: '0'
+                    });      
+                });
+                
+                $('.furniture-table-btn').clickToggle(function() {
+                    $('.table-ul').css({
+                        maxHeight: '100px'
+                    });
+                }, function() {
+                    $('.table-ul').css({
+                        maxHeight: '0'
+                    });
+                });
+                
+                $('.furniture-chair-btn').clickToggle(function() {
+                    $('.chair-ul').css({
+                        maxHeight: '100px'
+                    });
+                }, function() {
+                    $('.chair-ul').css({
+                        maxHeight: '0'
+                    });
+                });
+                
+                $('.furniture-sofa-set-btn').clickToggle(function() {
+                    $('.sofa-set-ul').css({
+                        maxHeight: '100px'
+                    });
+                }, function() {
+                    $('.sofa-set-ul').css({
+                        maxHeight: '0'
+                    });
+                });
+                
+                //- $('.furniture-sub-li-mobile-menu-2').click(function() {
+                //-     $('chair-ul').css({
+                //-         maxHeight: '100px'
+                //-     });
+                //- });
+                //- 
+                //- $('.furniture-sub-li-mobile-menu-3').click(function() {
+                //-     $('sofa-set-ul').css({
+                //-         maxHeight: '100px'
+                //-     });
+                //- });
+                
+            });
+            
+            
+            //- RETURN ALWAYS NUMBER FORMAT 
+        
+            //- function isNumberKey(evt)
+            //- 
+            //-     var charCode = (evt.which) ? evt.which : evt.keyCode
+            //-     if (charCode > 31 && (charCode < 48 || charCode > 57))
+            //-     return false;
+            //- 
+            //-     return true;
+
+            

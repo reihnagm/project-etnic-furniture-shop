@@ -1,0 +1,385 @@
+.swiper-container.home
+    height: 650px
+    cursor: pointer
+
+.swiper-slide.home
+    background-position: center
+    background-size: cover
+
+.swiper-button-next.home
+    right: 10% !important
+
+.swiper-button-prev.home
+    left: 10%  !important
+
+.swiper-button-next.home,
+.swiper-button-prev.home
+    position: absolute
+    visibility: hidden
+    opacity: 0
+    transition: visibility 0s, opacity 0.45s
+    top: 50%
+    width: 40px
+    z-index: 10
+    cursor: pointer
+    background: #f7f7f7
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled
+    pointer-events: visible !important
+
+.swiper-button-next.home.swiper-button-disabled .home-swiper-arrow-right-container,
+.swiper-button-prev.home.swiper-button-disabled .home-swiper-arrow-left-container
+    overflow: hidden
+    width: 40px
+    height: 40px
+
+.swiper-button-next.home.swiper-button-disabled .home-swiper-arrow-right-container .arrow-right-img,
+.swiper-button-prev.home.swiper-button-disabled .home-swiper-arrow-left-container .arrow-left-img
+    margin: 5px
+    width: 30px
+    transition: transform 0.45s ease-in-out
+
+.swiper-button-next.home.swiper-button-disabled .home-swiper-arrow-right-container .arrow-right-img:hover,
+.swiper-button-prev.home.swiper-button-disabled .home-swiper-arrow-left-container .arrow-left-img:hover
+    transform: translate3d(0, -60px, 0)
+
+.swiper-button-next.home .home-swiper-arrow-right-container,
+.swiper-button-prev.home .home-swiper-arrow-left-container
+    overflow: hidden
+    width: 40px
+    height: 40px
+
+.swiper-button-next.home .home-swiper-arrow-right-container .arrow-right-img,
+.swiper-button-prev.home .home-swiper-arrow-left-container .arrow-left-img
+    display: block
+    margin: 5px
+    width: 30px
+    transition: transform 0.45s ease-in-out
+
+.swiper-button-next.home .home-swiper-arrow-right-container .arrow-right-img:hover,
+.swiper-button-prev.home .home-swiper-arrow-left-container .arrow-left-img:hover
+    transform: translate3d(0, -60px, 0)
+
+.swiper-pagination-bullet
+    width: 10px
+    height: 10px
+    line-height: 10px
+    margin-bottom: 20px !important
+    text-align: center
+    font-size: 12px
+    color: #000
+    opacity: 1
+    border-radius: 0%
+    background: #fff
+
+.swiper-pagination-bullet-active
+    color: #fff
+    background: #fa6161
+
+.caption-swiper-home
+    position: absolute
+    top: 25%
+    z-index: 2
+    left: 0
+    right: 0
+    margin: 0
+    color: #000
+    font-size: 1em
+    text-align: center
+    display: block
+    text-shadow: none
+    max-width: none
+
+.title-swiper-home
+    font-size: 35px
+    text-align: center
+    font-weight: 400
+    color: #fff
+    letter-spacing: 1.5px
+    text-transform: capitalize
+    text-shadow: 0 1px 2px rgba(0,0,0,1)
+
+.desc-swiper-home
+    font-size: 55px
+    line-height: 55px
+    font-weight: 700
+    position: relative
+    text-transform: capitalize
+    margin: 25px 0
+    letter-spacing: 2.2px
+    color: #fff
+    text-shadow: 0 1px 2px rgba(0,0,0,1)
+
+.swiper-button-link.home
+    padding: 10px 20px
+    background: #fa6161
+    color: #fff
+    font-size: 13px
+    line-height: 1.25
+    font-weight: 500
+    display: inline-block
+    text-align: center
+    vertical-align: middle
+    white-space: nowrap
+    cursor: pointer
+    transition: 0.45s ease-in-out
+
+.swiper-button-link.home:hover
+    background: #000
+    color: #fff
+
+// SWIPER TESTIMONIAL
+
+.swiper-container.testimonial
+    height: 370px
+    text-align: center
+
+.swiper-testimonial-img
+    text-align: center
+    position: relative
+
+.swiper-testimonial-author:before
+    position: absolute
+    content: ""
+    top: 0
+    left: -30px
+    width: 20px
+    height: 20px
+    background: url('/assets/qoute/qoute.png') no-repeat scroll center center
+
+.swiper-testimonial-author
+    font-weight: 800
+    position: relative
+    font-size: 16px
+    margin-top: 20px
+    display: inline-block
+
+.swiper-testimonial-job
+    font-style: italic
+    color: #fa6161
+    text-align: center
+    margin-top: 5px
+
+.swiper-testimonial-desc
+    font-weight: 600
+    width: 90%
+    font-size: 11px
+    line-height: 2
+    border-top: 1px solid #fa6161
+    display: block
+    position: relative
+    margin: 20px auto 0 auto
+    padding-top: 15px
+    text-transform: capitalize
+    color: #000000
+    text-align: center
+
+.swiper-pagination.testimonial .swiper-pagination-bullet
+    background: #000000
+
+.swiper-pagination.testimonial .swiper-pagination-bullet-active
+    background: #fa6161
+
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom, .swiper-pagination-fraction
+    width: 100%
+    border: none
+
+.testimonial-img
+    width: 120px
+    height: 120px
+    border-radius: 50%
+    border: 2px solid #fa6161
+    display: block
+    margin: 10px auto 0 auto
+
+// SWIPER BLOG LATEST
+
+.swiper-container.blog-latest
+    position: relative
+    margin-top: 20px
+    background: #f7f7f7
+    border: 1px solid #eeeeee
+
+.swiper-slide.blog-latest
+    width: 289px
+
+.swiper-blog-arrow
+    position: absolute
+    width: 100%
+    top: 5%
+    left: 90%
+
+.swiper-blog-arrow-left,
+.swiper-blog-arrow-right
+    background: #ffffff
+    border: 1px solid #eeeeee
+    height: 30px
+    overflow: hidden
+    position: absolute
+
+.swiper-blog-arrow-right
+    margin: 0 0 0 35px
+
+.swiper-blog-arrow-right-img,
+.swiper-blog-arrow-left-img
+    cursor: pointer
+    width: 25px
+    transition: all 0.45s ease-in-out
+
+.swiper-blog-arrow-right-img:hover,
+.swiper-blog-arrow-left-img:hover
+    transform: translate3d(0, -48px, 0)
+
+.blog-latest-title
+    font-size: 16px
+    font-weight: bold
+    background: #f7f7f7
+    color: #000000
+    text-align: left
+    padding: 20px 20px 10px
+    text-transform: uppercase !important
+    border: 1px solid #eeeeee
+    border-bottom: transparent
+
+.blog-latest-container
+    margin: 10px
+    float: left
+
+.blog-latest-img-container
+    background: #ffffff
+    position: relative
+    overflow: hidden
+
+.blog-latest-img
+    cursor: pointer
+    width: 100%
+
+.blog-inner
+    background: #ffffff
+    width: 100%
+    padding: 25px 5px 15px 20px
+    float: left
+
+.blog-title
+    font-weight: bold
+    position: relative
+    text-transform: uppercase
+    margin-bottom: 20px
+
+.blog-created
+    margin-top: -25px
+    margin-left: 25px
+    display: inline-block
+
+.blog-date
+    background: #fa6161
+    color: #ffffff
+    padding: 5px 13px
+    line-height: 20px
+    display: table-caption
+    text-align: center
+    position: relative
+
+.blog-user-icon,
+.blog-love-icon
+    float: left
+
+.blog-love-icon
+    margin-left: 10px
+
+.user-icon-img,
+.love-icon-img
+    width: 14px
+    margin: -2px 5px 0 0
+    float: left
+
+// SWIPER BRANDS
+
+.swiper-container.brands
+    background: #f7f7f7
+    padding: 20px 0
+    margin-top: 20px
+    position: relative
+
+.swiper-slide.brands
+    border-right: 1px solid #eeeeee
+
+.swiper-slide.brands:last-child
+    border-right: none
+
+.swiper-brands-arrow
+    position: absolute
+    width: 100%
+    top: 40%
+    left: 90%
+
+.swiper-brands-arrow-left
+    left: -805px
+
+.swiper-brands-arrow-right
+    left: 67px
+
+.swiper-brands-arrow-left,
+.swiper-brands-arrow-right
+    background-color: #ffffff
+    border: 1px solid #eee
+    height: 23px
+    overflow: hidden
+    z-index: 99
+    position: absolute
+
+.swiper-brands-arrow-right-img,
+.swiper-brands-arrow-left-img
+    cursor: pointer
+    transition: transform 0.45s ease-in-out
+    width: 20px
+
+.swiper-brands-arrow-right-img:hover,
+.swiper-brands-arrow-left-img:hover
+    transform: translate3d(0, -38px, 0)
+
+.brands-image:hover
+    opacity: 1
+
+.brands-image
+    margin: 0 auto
+    opacity: .3
+    transition: all 0.45s ease 0s
+    cursor: pointer
+
+// SWIPER MODAL PRODUCTS
+
+.swiper-container.modal-products
+    height: 460px !important
+    float: left
+
+.swiper-modal-products-img
+    cursor: pointer
+    margin: 0 10px
+    border: 1px solid rgba(0,0,0, .1)
+    width: 100px
+
+.swiper-modal-products-arrow-up,
+.swiper-modal-products-arrow-down
+    width: 15px
+    cursor: pointer
+    position: absolute
+    z-index: 100
+
+.swiper-modal-products-arrow-up
+    top: 90%
+    left: 51%
+    transform: rotate(88deg)
+
+.swiper-modal-products-arrow-down
+    bottom: 96%
+    left: 51%
+    transform: rotate(-92deg)
+
+.swiper-modal-products-arrow-up.swiper-button-disabled
+    opacity: 0.5
+
+.swiper-modal-products-arrow-down.swiper-button-disabled
+    opacity: 0.5

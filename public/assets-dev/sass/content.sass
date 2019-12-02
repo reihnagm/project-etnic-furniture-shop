@@ -1,0 +1,883 @@
+.section-content
+    padding-bottom: 20px
+
+// SERVICES
+
+.section-services
+    padding: 40px 0
+
+.services-item-ul
+    margin: 0 0 0 5%
+
+.service-item-li
+    float: left
+    width: 23%
+    margin-left: 2%
+
+.service-item-li:nth-child(1)
+    margin-left: 0
+
+.service-item-title
+    font-weight: bold
+    margin-bottom: 5px
+    text-align: left
+    text-transform: uppercase
+
+.container-speaker-img,
+.container-hand-img,
+.container-ship-img,
+.container-truck-img
+    float: left
+    position: relative
+    height: 50px
+    overflow: hidden
+
+.speaker-img,
+.hand-img,
+.ship-img,
+.truck-img
+    transition: transform .3s ease-in-out
+
+.container-ship-img
+    margin: -9px 5px 0 0
+
+.container-truck-img
+    margin: -7px 5px 0 0
+
+.container-speaker-img
+    margin: -18px 5px 0 0
+
+.container-hand-img
+    margin: -7px 5px 0 0
+
+.speaker-img:hover
+    transform: translate3d(0, -70px, 0)
+
+.hand-img:hover
+    transform: translate3d(0, -78px, 0)
+
+.ship-img:hover
+    transform: translate3d(0, -78px, 0)
+
+.truck-img:hover
+    transform: translate3d(0, -75px, 0)
+
+//  PRODUCTS TAB
+
+.products-tab
+    background: #f7f7f7
+    text-align: left
+    padding: 20px 20px 10px
+    margin: 0
+    border-bottom: transparent !important
+    border: 1px solid #eeeeee
+
+.products-tab-item
+    display: inline-block
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5MEI5REM3MzA4MjQxMUU5OTgxOUU5NjRBQjUwNEVENiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5MEI5REM3NDA4MjQxMUU5OTgxOUU5NjRBQjUwNEVENiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkwQjlEQzcxMDgyNDExRTk5ODE5RTk2NEFCNTA0RUQ2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjkwQjlEQzcyMDgyNDExRTk5ODE5RTk2NEFCNTA0RUQ2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+lftFHgAAAERJREFUeNpi/JWYyMbAwNANxDFAzAjEi4G4lAVIdAFxHgMCgNjfmYBELAMmSGViwAGYoGaigzkgO8qglsKMBCmsBQgwAJfvCiQsj4b7AAAAAElFTkSuQmCC') no-repeat scroll 0 3px
+    padding-left: 25px
+    padding-right: 25px
+
+.products-tab-item:first-child
+    padding-left: 0
+    background: none
+
+.products-tab-item:last-child
+    padding-right: 0
+
+.products-tab-link
+    font-weight: bold
+    cursor: pointer
+    transition: 0.45s ease 0s
+    background: transparent
+    position: relative
+    color: #000000
+
+.products-tab-link:hover
+    color: #fa6161
+
+.is-active-tab
+    color: #fa6161
+
+// PRODUCTS
+
+.products
+    width: 77.3%
+    padding-left: 10px
+    float: left
+
+.products-border
+    border: 1px solid #eeeeee
+    border-top: transparent
+    width: 100%
+    padding: 8px 10px 8px 8px
+    background: #f7f7f7
+
+.products-item-li
+    position: relative
+    float: left
+    margin: 10px
+
+.products-img
+    width: 190px
+
+.products-info-text
+    position: absolute
+    top: 5%
+    left: 5%
+    color: #ffffff
+
+.products-info-text-new
+    font-size: 11px
+    margin-bottom: 10px
+    display: block
+    font-weight: bold
+
+.products-info-text-new-onsale
+    font-size: 9px
+
+.products-info-hovered
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    visibility: hidden
+    background: rgba(#fa6161, 0.5)
+
+.products-img-hovered
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    left: 0
+    width: 190px
+    visibility: hidden
+
+.products-info-eye-quick-view
+    position: absolute
+    top: 10%
+    left: 30%
+    width: 70%
+    z-index: 100
+    cursor: pointer
+    visibility: hidden
+    opacity: 0
+
+.products-info-eye-quick-view-text
+    background: rgb(237, 100, 100)
+    color: #ffffff
+    text-transform: uppercase
+    padding: 5px
+    width: 100px
+    font-size: 8px
+    text-align: center
+
+.products-info-eye-style
+    background: #ffffff
+    position: absolute
+    top: 5%
+    left: 75%
+    z-index: 100
+    height: 40px
+    width: 40px
+    overflow: hidden
+    visibility: hidden
+    line-height: 40px
+    cursor: pointer
+    border-radius: 50%
+    border: 3px solid rgba(255, 100, 180, 0.3)
+
+.products-info-eye-style-img
+    position: relative
+    bottom: 51%
+    left: 21%
+    display: block
+    transition: transform .4s ease-in-out
+
+.products-info-rate
+    position: absolute
+    z-index: 100
+    width: 100%
+    top: 68%
+    left: 45%
+    visibility: hidden
+
+.products-info-rate-img
+    display: block
+    width: 12px
+    margin: 0 4px
+    float: left
+
+.products-info-add-to-cart
+    position: absolute
+    top: 35%
+    left: 20%
+    display: inline-block
+
+.products-info-add-to-cart-link
+    border: 1px solid #ffffff
+    color: #ffffff
+    padding: 10px
+    width: 120px
+    text-align: center
+    font-size: 11px
+    display: inline-block
+    cursor: pointer
+
+.products-info-add-to-cart-link:hover
+    background: #000000
+    color: #ffffff
+    border: 1px solid #000000
+
+.products-description
+    background: #ffffff
+    border-top: 1px solid #eeeeee
+    padding-top: 15px
+    position: relative
+    text-align: center
+
+.products-item-title
+    text-transform: capitalize
+    margin-bottom: 8px
+    text-align: center
+    display: inline-block
+
+.products-price-and-shipping
+    color: #000000
+    font-weight: bold
+    font-size: 15px
+    padding-bottom: 10px
+
+// DISCOUNT BANNER
+
+.discount-banner
+    position: relative
+    margin-top: 20px
+    width: 890px
+
+.discount-banner:before
+    position: absolute
+    top: 0
+    left: 0
+    content: ""
+    background: rgba(248,139,139,.2)
+    width: 100%
+    height: 100%
+    transform: scale(0)
+    transition: all 0.5s
+
+.discount-banner:after
+    position: absolute
+    top: 0
+    left: 0
+    content: ""
+    background: rgba(248,139,139,.2)
+    width: 100%
+    height: 100%
+    transform: scale(0)
+    transition: all 0.45s
+
+.discount-banner:hover:before
+    transform: scale(1)
+
+.discount-banner:hover:after
+    transform: scale(1)
+
+.discount-banner-onsale-shape
+    position: absolute
+    top: 60px
+    right: 85px
+    z-index: 1
+    width: 55px
+    height: 55px
+    background: #fa6161
+    transform: rotate(45deg)
+
+.discount-banner-onsale-shape-description
+    text-align: center
+    font-size: 12px
+    color: #fff
+    font-weight: 600
+    line-height: 1.6
+    margin-top: 5px
+    margin-right: 2px
+    padding: 5px 0
+    transform: rotate(-45deg)
+
+.banner-title-link
+    font-size: 25px
+    color: #fff
+    font-weight: 600
+    text-transform: capitalize
+
+.banner-price
+    color: #fa6161
+    transition: all 0.45s ease 0s
+
+.discount-banner-description
+    position: absolute
+    left: 60px
+    top: 65px
+    transition: all 1s ease 0s
+
+.discount-banner-desc
+    font-size: 11px
+    font-weight: 300
+    color: #ffffff
+    padding: 15px 0
+    text-transform: uppercase
+
+.discount-banner-button
+    position: absolute
+    z-index: 100
+
+.discount-banner-link
+    margin-top: 10px
+    color: #ffffff
+    display: inline-block
+    padding: 10px 20px
+    border: 1px solid #ffffff
+    background: transparent
+    text-transform: capitalize
+    transition: all 0.45s ease 0s
+
+// ONSALE PRODUCTS
+
+.products-onsale
+    background: #f7f7f7
+    margin-top: 20px
+
+.products-onsale-title
+    text-transform: uppercase
+    font-size: 15px
+    letter-spacing: 0.8
+    margin-bottom: 30px
+    font-weight: bold
+
+.products-item-li-onsale
+    position: relative
+    float: left
+    margin: 10px
+
+.products-info-eye-quick-view-onsale
+    position: absolute
+    top: 10%
+    left: 30%
+    width: 70%
+    z-index: 100
+    cursor: pointer
+    visibility: hidden
+    opacity: 0
+
+.products-info-eye-quick-view-onsale p
+    background: rgb(237, 100, 100)
+    color: white
+    padding: 4px
+    width: 100px
+    font-size: 10px
+    text-align: center
+
+.products-info-eye-style-onsale
+    position: absolute
+    top: 5%
+    left: 75%
+    z-index: 100
+    cursor: pointer
+    background: white
+    height: 40px
+    width: 40px
+    overflow: hidden
+    visibility: hidden
+    line-height: 40px
+    border-radius: 50%
+    border: 3px solid rgba(255, 100, 180, 0.3)
+
+.products-info-eye-style-img-onsale
+    position: relative
+    bottom: 51%
+    left: 21%
+    display: block
+    transition: transform .4s ease-in-out
+
+.products-img-hovered-onsale
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    left: 0
+    width: 200px
+    visibility: hidden
+
+.products-info-hovered-onsale
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    visibility: hidden
+    background: rgba(#fa6161, 0.5)
+
+.products-img-onsale
+    width: 190px
+
+.products-info-text-onsale
+    position: absolute
+    top: 5%
+    left: 5%
+    color: white
+
+.products-description-onsale
+    background: #ffffff
+    border-top: 1px solid #eeeeee
+    padding-top: 15px
+    position: relative
+    text-align: center
+
+.products-item-title-onsale
+    text-transform: capitalize
+    margin-bottom: 8px
+    text-align: center
+    display: inline-block
+
+.products-price-and-shipping-onsale
+    color: #000000
+    font-weight: bold
+    font-size: 15px
+    padding-bottom: 10px
+
+.products-info-rate-onsale
+    position: absolute
+    z-index: 100
+    width: 100%
+    top: 68%
+    left: 44%
+    visibility: hidden
+
+.products-info-rate-onsale-img
+    display: block
+    width: 12px
+    margin: 0 4px
+    float: left
+
+.products-info-add-to-cart-onsale
+    position: absolute
+    top: 35%
+    left: 20%
+    display: inline-block
+
+.products-info-add-to-cart-link-onsale
+    padding: 10px
+    width: 120px
+    text-align: center
+    border: 1px solid white
+    color: #ffffff
+    font-size: 11px
+    display: inline-block
+    cursor: pointer
+
+.products-info-add-to-cart-onsale:hover .products-info-add-to-cart-link-onsale
+    background: #000000
+    color: #ffffff
+    border: 1px solid #000000
+
+// ONSALE OTHER PRODUCTS
+
+.products-other-onsale
+    margin-top: 20px
+    position: relative
+
+.sub-banner-content-li
+    display: block
+    text-align: center
+    float: left
+    width: 50%
+
+.banner-inner
+    position: relative
+    overflow: hidden
+    margin: 0 10px
+
+.banner-inner-link
+    text-align: center
+
+.banner-inner-link:before
+    position: absolute
+    top: 0
+    left: 0
+    content: ""
+    background: rgba(248,139,139,.2)
+    width: 100%
+    height: 100%
+    transform: scale(0)
+    transition: all 0.3s 0.2s
+
+.banner-inner-link:after
+    position: absolute
+    top: 0
+    left: 0
+    content: ""
+    background: rgba(248,139,139,.2)
+    width: 100%
+    height: 100%
+    transform: scale(0)
+    transition: all 0.3s
+
+.banner-inner-link:hover:before
+    transform: scale(1)
+
+.banner-inner-link:hover:after
+    transform: scale(1)
+
+.products-item-other-onsale-detail
+    text-align: center
+    position: absolute
+    top: 20px
+    left: 0
+    right: 0
+    transition: all 0.60s ease 0s
+
+.products-item-other-onsale-detail-title
+    font-size: 14px
+    padding-bottom: 10px
+    color: #fa6161
+
+.products-item-other-onsale-detail-description
+    font-size: 16px
+    font-weight: bold
+    color: #000000
+    transition: all 0.45s ease 0s
+
+// SIDEBAR
+
+.sidebar
+    float: left
+    width: 22.7%
+
+// CATEGORIES
+
+.categories-item-ul
+    width: 250px
+    border: 1px solid #eeeeee
+    background: #f7f7f7
+    margin-bottom: 30px
+
+.category-item-li
+    padding: 8px 30px
+    position: relative
+    width: 100%
+    display: block
+    color: #000000
+    margin-top: 12px
+
+.container-category-title
+    background: #fa6161
+    color: #ffffff
+    position: relative
+    padding: 20px
+
+.category-title
+    text-transform: uppercase
+    margin-left: 12px
+    font-weight: bold
+
+.arrow-category
+    position: absolute
+    width: 12px
+    top: 30%
+    right: 10%
+
+.arrow-submenu-category
+    position: absolute
+    width: 12px
+    top: 33%
+    right: 8%
+
+.category-hamburger-menu
+    position: absolute
+    width: 20px
+    top: 30%
+    right: 5%
+
+.category-item-li:hover .furniture-sidebar-sub-menu
+    visibility: visible
+    right: -235px
+    transition: right 100ms
+
+.furniture-sidebar-sub-menu
+    box-shadow: 0 9px 9px 5px rgba(0, 0, 0, 0.1)
+    width: 100%
+    padding: 10px 0
+    position: absolute
+    visibility: hidden
+    background: #f7f7f7
+    z-index: 100
+    top: 3px
+    right: -260px
+
+.furniture-sidebar-sub-menu-table,
+.furniture-sidebar-sub-menu-chair,
+.furniture-sidebar-sub-menu-sofa-set
+    box-shadow: 0 9px 9px 5px rgba(0,0,0,0.1)
+    position: absolute
+    padding: 15px
+    background: #f7f7f7
+    top: 40%
+    right: -260px
+    visibility: hidden
+    z-index: 1
+    width: 100%
+
+.furniture-sidebar-sub-menu-li
+    position: relative
+    padding: 10px 0 10px 20px
+    margin-top: 0
+    background: #f7f7f7
+
+.furniture-sidebar-sub-menu-li:hover .furniture-sidebar-sub-menu-table,
+.furniture-sidebar-sub-menu-li:hover .furniture-sidebar-sub-menu-chair,
+.furniture-sidebar-sub-menu-li:hover .furniture-sidebar-sub-menu-sofa-set
+    visibility: visible
+    right: -240px
+    transition: right 100ms
+
+// OFFER PRODUCTS
+
+.offer
+    width: 250px
+    border: 1px solid #eeeeee
+    background: #f7f7f7
+    margin-bottom: 30px
+    padding-bottom: 25px
+
+.offer-link-all-product
+    text-align: right
+    display: block
+    margin: 25px 15px 0 0
+    margin-top: 25px
+    margin-right: 15px
+    color: #000000
+    text-decoration: underline
+
+.offer-link-all-product:hover
+    color: #fa6161
+
+.offer-product-title
+    text-transform: uppercase
+    margin-left: 12px
+    font-weight: bold
+
+.offer-product-item-price
+    margin: 10px 0 15px 0
+    text-align: center
+
+.offer-discount
+    text-decoration: line-through
+    color: #6d6d6d
+
+.offer-undiscount
+    margin: 0 0 0 5px
+    font-weight: bold
+
+.offer-product-desc
+    text-align: center
+    font-weight: bold
+
+.offer-countdown-item
+    display: inline-block
+    margin-left: 10px
+
+.offer-countdown-item:first-child
+    margin-left: 0
+
+.container-offer-product-title
+    position: relative
+    padding: 20px
+    background: #fa6161
+    color: #ffffff
+
+.container-offer-countdown
+    text-align: center
+
+.container-offer-product-img
+    width: 180px
+    margin: 20px auto
+
+// TESTIMONIAL
+
+.testimonial
+    width: 250px
+    border: 1px solid #eeeeee
+    background: #f7f7f7
+
+.container-testimonial-title
+    position: relative
+    padding: 20px
+    background: #fa6161
+    color: #ffffff
+
+.testimonial-title
+    text-transform: uppercase
+    margin-left: 12px
+    font-weight: bold
+
+.text-days,
+.text-hours,
+.text-minutes,
+.text-seconds
+    font-weight: bold
+    font-size: 11px
+    color: #fa6161
+    margin: 5px 0 0 0
+
+.number-days,
+.number-hours,
+.number-minutes,
+.number-seconds
+    padding: 5px 10px
+    overflow: hidden
+    display: block
+    font-size: 18px
+    font-weight: bold
+    text-align: center
+    background: linear-gradient(to bottom,rgba(0,0,0,1) 0%,rgba(64,94,119,1) 100%,rgba(0,0,0,1) 100%)
+    color: #ffffff
+
+.number-seconds
+    color: #fa6161
+
+// BOX PROMOTION
+
+.box-promotion
+    width: 250px
+    background: #f7f7f7
+    padding: 35px 0
+    margin: 30px 0
+    border: 1px solid #fa6161
+    position: relative
+    transition: all 0.45s ease 0s
+    text-align: center
+
+.box-promotion:before
+    position: absolute
+    content: ""
+    top: 20px
+    bottom: 20px
+    left: 20px
+    right: 20px
+    border: 1px solid #ffffff
+    opacity: 0
+    transition: all 0.45s ease 0s
+    transform: scale(0)
+
+.box-promotion:hover
+    background: #fa6161
+
+.box-promotion:hover:before
+    transform: scale(1)
+    opacity: 1
+
+.box-promotion-link
+    display: inline-block
+    background: #fa6161
+    color: #ffffff
+    font-weight: bold
+    line-height: 1.25
+    text-align: center
+    white-space: nowrap
+    vertical-align: middle
+    text-transform: uppercase
+    cursor: pointer
+    user-select: none
+    border: 1px solid transparent
+    padding: 10px 20px
+    font-size: 13px
+    transition: all 0.45s ease 0s
+
+.box-promotion-title
+    font-size: 40px
+    text-align: center
+    font-weight: bold
+    color: #fa6161
+
+.box-promotion-first-text-promo
+    font-weight: bold
+    padding: 15px 0
+    font-size: 16px
+
+.box-promotion-second-text-promo
+    padding-bottom: 15px
+
+// SECTION ADS IMAGE
+
+.ads-image
+    width: 250px
+
+.ads-image-item
+    position: relative
+    text-align: center
+    overflow: hidden
+
+.ads-image-item:before
+    position: absolute
+    top: 0
+    left: 0
+    content: ""
+    background: rgba(248,139,139,.2)
+    width: 100%
+    height: 100%
+    transform: scale(0)
+    transition: all 0.3s 0.2s
+
+.ads-image-item:after
+    position: absolute
+    top: 0
+    left: 0
+    content: ""
+    background: rgba(248,139,139,.2)
+    width: 100%
+    height: 100%
+    transform: scale(0)
+    transition: all 0.3s
+
+.ads-image-item:hover:before
+    transform: scale(1)
+
+.ads-image-item:hover:after
+    transform: scale(1)
+
+// .section.section-content #ads-image #pulse-effect-1
+//   position: absolute
+//   top: 0
+//   left: 0
+//   right: 0
+//   bottom: 0
+//   visibility: hidden
+//
+// .section.section-content #ads-image #pulse-effect-2
+//   position: absolute
+//   top: 0
+//   left: 0
+//   right: 0
+//   bottom: 0
+//   visibility: hidden
+
+// ANIMATE
+
+@keyframes effectShowScale
+    0%
+        transform: scale(0)
+    100%
+        transform: scale(1)
+
+@keyframes effectShowScaleClose
+    0%
+        transform: scale(1)
+    100%
+        transform: scale(0)
