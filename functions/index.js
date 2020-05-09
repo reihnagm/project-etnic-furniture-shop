@@ -1,14 +1,13 @@
 const functions = require('firebase-functions');
 const express = require("express");
-const cons = require("consolidate");
 const app = express();
-
-app.engine("jade", cons.jade);
-app.set("view engine", "jade");
+const consolidate = require("consolidate");
+app.engine("pug", consolidate.pug);
+app.set("view engine", "pug");
 app.set("views", "./views");
 
-app.get("/", (req, res) => {
-		res.render("index2");
+app.get("/", (request, response) => {
+	response.render("index");
 });
 
 exports.app = functions.https.onRequest(app);

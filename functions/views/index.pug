@@ -1,0 +1,59 @@
+doctype html
+html
+  include ./head.pug
+  body
+    .header.clearfix.hidden-in-mobile
+      .container
+        include ./language-and-currency.pug
+        include ./create-account-and-sign-in-and-search   
+    include ./menu-in-desktop
+    .header-mobile.hidden-in-desktop
+      .container-hamburger-menu-mobile
+        img(src="/assets/hamburger-menu/hamburger-menu-black.png", class="hamburger-menu-icon")
+      .container-person-mobile-icon
+        img(src="/assets/person/person.png", class="person-mobile-icon")
+      .container-bag-mobile-icon
+        img(src="/assets/bag/bag.png", class="bag-mobile-icon")
+    .container-search-bar-mobile.hidden-in-desktop
+      .container-input-search-mobile
+        input(type="text", class="input-search-mobile")
+        .container-input-search-img-mobile
+          img(src="/assets/search/search.png", class="input-search-img-mobile")
+    include ./left-menu-mobile.pug   
+    include ./swiper.pug   
+    section.section.section-services.clearfix
+      .container
+        include ./services.pug 
+    section.section.section-content.clearfix
+      .container
+        ul
+          li.sidebar.hidden-in-mobile.clearfix
+            include ./categories.pug
+            include ./offer.pug
+            include ./testimonial.pug
+            include ./box-promotion.pug
+            include ./ads.pug
+          li.products.clearfix
+            include ./products-tab.pug
+            .products-border.clearfix
+              ul.products-item-ul
+                include ./products-item.pug
+            include ./discount-banner.pug
+            include ./products-onsale.pug
+            include ./products-other-onsale.pug
+            include ./swiper-blog-latest.pug
+            include ./swiper-brands.pug
+    include ./footer.pug
+    .backdrop.products
+    include ./modal-products.pug
+    .backdrop.other-products
+    include ./modal-other-products.pug
+      
+    script(src="/assets-dev/js/jquery.min.js")
+    script(src="/assets-dev/js/swiper/swiper.js")
+    script(src="/assets-dev/js/swiper/swiper.min.js")
+    script(src="/assets/js/custom-swiper.js")
+    script(src="/assets-dev/js/countdown/countdown.js")
+    script(src="/assets/js/main.js")
+
+      

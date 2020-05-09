@@ -1,216 +1,215 @@
 .backdrop
-    transition: all 0.5s ease
-    background: rgba(0,0,0, .5)
-    visibility: hidden
-    opacity: 0
-    position: fixed
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    z-index: 100
+  transition: all 0.5s ease
+  background: rgba(0,0,0, .5)
+  visibility: hidden
+  opacity: 0
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 100
 
 .modal
-    transition: all 0.5s ease
-    visibility: hidden
-    opacity: 0
-    position: fixed
-    left: 10%
-    top: 0
-    z-index: 200
-    width: 80%
-    background: #ffffff
-    -webkit-box-shadow: 1px 1px 6px rgba(0,0,0, .4)
-    box-shadow: 1px 1px 6px rgba(0,0,0, .4)
-    border-radius: 3px
-    padding: 30px 30px 60px 30px
+  transition: all 0.5s ease
+  visibility: hidden
+  opacity: 0
+  position: fixed
+  left: 10%
+  top: 0
+  z-index: 200
+  width: 80%
+  background: #ffffff
+  box-shadow: 1px 1px 6px rgba(0,0,0, .4)
+  border-radius: 3px
+  padding: 30px 30px 60px 30px
 
 .modal-products-container-img
-    position: relative
-    width: 46%
-    float: left
-    border: 1px solid rgba(0,0,0,.1)
+  position: relative
+  width: 46%
+  float: left
+  border: 1px solid rgba(0,0,0,.1)
 
 .modal-products-img
-    width: 100%
+  width: 100%
 
 .modal-products-detail
-    float: left
-    width: 41%
+  float: left
+  width: 41%
 
 .modal-products-container-title
-    margin-bottom: 20px
+  margin-bottom: 20px
 
 .modal-products-container-price
-    margin-bottom: 20px
+  margin-bottom: 20px
 
 .modal-products-title
-    text-transform: uppercase
-    font-size: 21px
-    font-weight: bold
-    color: #000000
+  text-transform: uppercase
+  font-size: 21px
+  font-weight: bold
+  color: #000000
 
 .modal-products-price
-    color: #000000
-    display: inline-block
-    font-size: 16px
-    font-weight: bold
+  color: #000000
+  display: inline-block
+  font-size: 16px
+  font-weight: bold
 
 .modal-products-description
-    color: #232323
-    font-size: 14px
-    line-height: 23px
-    text-align: left
-    margin-bottom: 20px
+  color: #232323
+  font-size: 14px
+  line-height: 23px
+  text-align: left
+  margin-bottom: 20px
 
 .modal-products-size-container
-    padding: 10px
-    background: #f6f6f6
-    border-radius: 8px
+  padding: 10px
+  background: #f6f6f6
+  border-radius: 8px
 
 .modal-products-size-select
-    height: 40px
-    font-size: 16px
-    -moz-appearance: none
-    -webkit-appearance: none
-    appearance: none
-    width: auto
-    padding: 0 33px 0 10px
-    background: #ffffff url('/assets/arrow-down/arrow-down.png') no-repeat scroll right 10px center / 10px 10px
-    // background : [color] [url] [no-repeat] [scroll] [position] [10px] [position] / [width] [height]
+  height: 40px
+  font-size: 16px
+  -moz-appearance: none
+  -webkit-appearance: none
+  appearance: none
+  width: auto
+  padding: 0 33px 0 10px
+  background: #ffffff url('/assets/arrow-down/arrow-down.png') no-repeat scroll right 10px center / 10px 10px
+  // background : [color] [url] [no-repeat] [scroll] [position] [10px] [position] / [width] [height]
 
 .modal-products-size-label,
 .modal-products-color-label,
 .modal-products-qty-label
-    display: block
-    margin-bottom: 10px
+  display: block
+  margin-bottom: 10px
 
 .modal-products-color-container
-    margin-top: 20px
-    padding: 10px 10px 30px 10px
-    background: #f6f6f6
-    border-radius: 8px
+  margin-top: 20px
+  padding: 10px 10px 30px 10px
+  background: #f6f6f6
+  border-radius: 8px
 
 .modal-products-radio-white-color[type="radio"]
-    cursor: pointer
+  cursor: pointer
 
 .modal-products-radio-white-color[type="radio"]:checked:after
-    border-color: #000000
+  border-color: #000000
 
 .modal-products-radio-white-color[type="radio"]:hover:after
-    border-color: #000000
+  border-color: #000000
 
 .modal-products-radio-white-color[type="radio"]:after
-    width: 15px
-    height: 15px
-    top: -2px
-    left: -1px
-    position: relative
-    background: #ffffff
-    content: ''
-    display: inline-block
-    border-radius: 0
-    visibility: visible
-    border: 2px solid #ffffff
+  width: 15px
+  height: 15px
+  top: -2px
+  left: -1px
+  position: relative
+  background: #ffffff
+  content: ''
+  display: inline-block
+  border-radius: 0
+  visibility: visible
+  border: 2px solid #ffffff
 
 .modal-products-radio-white-color.active-color[type="radio"]:checked:after
-    border-color: #000000
+  border-color: #000000
 
 .modal-products-radio-black-color[type="radio"]
-    cursor: pointer
-    margin-left: 12px
+  cursor: pointer
+  margin-left: 12px
 
 .modal-products-radio-black-color[type="radio"]:hover:after
-    border-color: #000000
+  border-color: #000000
 
 .modal-products-radio-black-color[type="radio"]:after
-    width: 15px
-    height: 15px
-    top: -2px
-    left: -1px
-    position: relative
-    background: #434A54
-    content: ''
-    display: inline-block
-    border-radius: 0
-    visibility: visible
-    border: 2px solid #434A54
+  width: 15px
+  height: 15px
+  top: -2px
+  left: -1px
+  position: relative
+  background: #434A54
+  content: ''
+  display: inline-block
+  border-radius: 0
+  visibility: visible
+  border: 2px solid #434A54
 
 .modal-products-radio-black-color.active-color[type="radio"]:checked:after
-    border-color: #000000
+  border-color: #000000
 
 .modal-close
-    position: absolute
-    top: 0
-    right: 0
-    font-size: 20px
-    font-weight: bold
-    text-shadow: 2px 2px #fa6161
-    padding: 10px 15px
-    border-radius: 3px
-    color: #ffffff
-    background: #000000
-    cursor: pointer
+  position: absolute
+  top: 0
+  right: 0
+  font-size: 20px
+  font-weight: bold
+  text-shadow: 2px 2px #fa6161
+  padding: 10px 15px
+  border-radius: 3px
+  color: #ffffff
+  background: #000000
+  cursor: pointer
 
 .container-qty
-    top: 20px
-    position: relative
+  top: 20px
+  position: relative
 
 .qty-input
-    width: 48px
-    padding-left: 5px
-    outline: 0
-    font-size: 19px
-    height: 40px
-    border: 1px solid rgba(0,0,0, .1)
+  width: 48px
+  padding-left: 5px
+  outline: 0
+  font-size: 19px
+  height: 40px
+  border: 1px solid rgba(0,0,0, .1)
 
 .container-arrow-up-increment-qty-img,
 .container-arrow-down-decrement-qty-img
-    padding: 5px 12px
-    width: 10px
-    transition: .3s ease
-    position: absolute
-    border: 1px solid rgba(0,0,0, .1)
-    cursor: pointer
-    background: #ffffff
+  padding: 5px 12px
+  width: 10px
+  transition: .3s ease
+  position: absolute
+  border: 1px solid rgba(0,0,0, .1)
+  cursor: pointer
+  background: #ffffff
 
 .container-arrow-up-increment-qty-img:hover,
 .container-arrow-down-decrement-qty-img:hover
-    background: rgba(0,0,0, .1)
+  background: rgba(0,0,0, .1)
 
 .container-arrow-up-increment-qty-img
-    top: 33%
-    left: 14%
+  top: 33%
+  left: 14%
 
 .container-arrow-down-decrement-qty-img
-    top: 66%
-    left: 14%
+  top: 66%
+  left: 14%
 
 .arrow-up-increment-qty-img,
 .arrow-down-decrement-qty-img
-    position: relative
-    top: 0
-    right: 5px
-    bottom: 5px
-    width: 10px
+  position: relative
+  top: 0
+  right: 5px
+  bottom: 5px
+  width: 10px
 
 .arrow-up-increment-qty-img
-    transform: rotate(-92deg)
+  transform: rotate(-92deg)
 
 .arrow-down-decrement-qty-img
-    transform: rotate(88deg)
+  transform: rotate(88deg)
 
 .modal-products-add-to-cart
-    background: #fa6161
-    color: #ffffff
-    position: relative
-    bottom: 5px
-    left: 35px
-    transition: 0.45s ease-in-out 0s
-    padding: 12px
-    cursor: pointer
-    display: inline-block
-    text-transform: uppercase
+  background: #fa6161
+  color: #ffffff
+  position: relative
+  bottom: 5px
+  left: 35px
+  transition: 0.45s ease-in-out 0s
+  padding: 12px
+  cursor: pointer
+  display: inline-block
+  text-transform: uppercase
 
 .modal-products-add-to-cart:hover
-    background: #000000
+  background: #000000
