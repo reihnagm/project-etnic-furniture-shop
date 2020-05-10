@@ -4,7 +4,7 @@
 .hidden-in-desktop
   display: none
 
-@media (max-width: 1024px)
+@media screen and (max-width: 1024px)
   .container
     width: 90%
 
@@ -38,15 +38,6 @@
   .swiper-container.home
     height: 400px !important
 
-  .swiper-brands-arrow-left
-    left: -558px !important
-
-  .swiper-brands-arrow-right
-    left: 39px !important
-
-  .swiper-blog-arrow
-    left: 88.5% !important
-
   .services-item-ul
     margin: 0 0 0 16%
 
@@ -56,7 +47,11 @@
     margin-top: 12px
     margin-left: 0
 
-@media  (max-width: 480px)
+@media screen and(max-width: 736px) 
+  .col-personal-info 
+    text-align: center
+
+@media screen and (max-width: 480px)
   .hidden-in-mobile
     display: none
 
@@ -288,18 +283,6 @@
   .swiper-wrapper.blog-latest
     float: none !important
 
-  .swiper-blog-arrow
-    left: 80% !important
-
-  .swiper-container.brands
-    width: 100% !important
-
-  .swiper-brands-arrow-right
-    left: 18px !important
-
-  .swiper-brands-arrow-left
-    left: -354px !important
-
   .col-newsletter
     float: none
     margin: 0 auto
@@ -335,17 +318,9 @@
     width: 60px
     display: inline-block
 
-  .col-personal-info
-    text-align: center;
-    margin: 12px 0 30px 0 
-
   .col-copyright
     text-align: center
     margin-top: 12px
-
-  .text-visa,
-  .text-paypal
-    display: inline-block
 
   .text-personal-info,
   .text-credit-slips,
@@ -358,7 +333,7 @@
     margin: 0 8px
 
   .text-personal-info:hover,
-  .text-credit-clips:hover,
+  .text-credit-slips:hover,
   .text-addresses:hover,
   .text-orders:hover
     color: #fa6161
@@ -366,11 +341,10 @@
   .text-mobile-copyright
     color: #ffffff
     font-size: 12px
-    line-height: 20px
     display: inline-block
 
 
-@media  (max-width: 360px)
+@media screen and (max-width: 360px)
   .hidden-in-mobile
     display: none
 
@@ -543,20 +517,9 @@
   .banner-inner-img
     width: 100%
 
-  .col-personal-info
-    width: 52%
-
   .cc-mobile-container
     width: 57%
 
   .footer-socmed-icons
     margin-left: 19%
 
-  .swiper-blog-arrow
-    left: 77% !important
-
-  .swiper-brands-arrow-left
-    left: -278px !important
-
-  .swiper-brands-arrow-right
-    left: 9px !important
